@@ -1,0 +1,40 @@
+name: Primera recopilación real de X (una sola ejecución)
+on:
+  push:
+    paths:
+      - '.github/workflows/primera-recopilacion.yml'
+permissions:
+  contents: write
+concurrency:
+  group: visor-albiol-recopilacion
+  cancel-in-progress: false
+jobs:
+  primera-captura:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Ejecutar pruebas
+        run: npm test
+      - name: Primera consulta real (máximo 10 peticiones y 500 publicaciones)
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: npm run collect
+      - name: Generar indicadores
+        if: always()
+        run: npm run process
+      - name: Guardar histórico y diagnóstico
+        if: always()
+        run: |
+          git config user.name 'Visor Albiol Bot'
+          git config user.email 'actions@github.com'
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Primer histórico Visor Albiol'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
