@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {detectarIdioma} from '../src/idioma.js';
+import {normalizar} from '../src/almacen.js';
+test('Catalán identificado',()=>assert.equal(detectarIdioma('Moltes gràcies als veïns del barri i la ciutat','und').codigo,'ca'));
+test('Castellano identificado',()=>assert.equal(detectarIdioma('Los vecinos del barrio y la ciudad tienen mucho trabajo','es').codigo,'es'));
+test('Indeterminado sin texto',()=>assert.equal(detectarIdioma('👍','und').codigo,'indeterminado'));
+test('Conserva respuesta y autor',()=>{const p=normalizar({id:'1',text:'Albiol',created_at:'2026-10-21T12:00:00Z',author_id:'45',lang:'es',referenced_tweets:[{type:'replied_to',id:'8'}],public_metrics:{like_count:2}},{'45':{username:'ejemplo'}});assert.equal(p.responde_a,'8');assert.equal(p.autor_username,'ejemplo');});
+test('Inicio 21 de octubre Madrid',()=>assert.equal(JSON.parse(fs.readFileSync('config/fuentes.json','utf8')).inicio_utc,'2026-10-20T22:00:00Z'));

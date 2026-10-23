@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "inicio": "2026-10-21",
+  "actualizado_en": null,
+  "total_posts": 0,
+  "total_autores": 0,
+  "publicaciones_albiol": 0,
+  "impresiones_disponibles_en": 0,
+  "idiomas": {},
+  "fuentes": {},
+  "por_dia": [],
+  "temas": [],
+  "top_interacciones": [],
+  "avisos": [],
+  "estado": "SIN_DATOS",
+  "notas": [
+    "Fuentes solapadas: no sumar recuentos de procedencia.",
+    "Temáticas por palabras clave: multietiqueta, no interpretación semántica.",
+    "Actividad en X, no encuesta ni representación de la opinión pública.",
+    "La presencia en un hilo no demuestra que el mensaje se refiera a Albiol.",
+    "Clasificación lingüística automática susceptible de error."
+  ]
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0d2038"/><title>Visor Albiol · Conversación pública</title>
+<style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial;color:#13253d;background:#f2f5f9}
+*{box-sizing:border-box}body{margin:0}header{background:#0d2038;color:#fff;padding:36px max(24px,calc((100vw - 1120px)/2))}
+header small{font-size:12px;letter-spacing:.15em;color:#8ec5ff;text-transform:uppercase}
+h1{font-size:clamp(28px,5vw,46px);letter-spacing:-.04em;margin:10px 0}header p{color:#d3ddea;max-width:740px;line-height:1.65}
+main{max-width:1120px;margin:24px auto;padding:0 20px 48px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+article{background:#fff;border:1px solid #e2e7ee;border-radius:14px;padding:20px;box-shadow:0 4px 18px #10244108}
+.kpis article span{font-size:13px;color:#52657c}.kpis article strong{display:block;font-size:31px;letter-spacing:-.03em;margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:16px}
+h2{font-size:18px;margin:0 0 20px}section.wide{margin-top:16px}
+.chartrow{display:grid;grid-template-columns:135px 1fr 58px;align-items:center;gap:12px;margin:10px 0;font-size:13px;color:#46566c}
+.chartrow>span:last-child{text-align:right;font-variant-numeric:tabular-nums;color:#16324e}
+.charttrack{background:#ebf1f7;height:12px;border-radius:10px;overflow:hidden}.bar{height:100%;background:#176dc1;border-radius:10px}
+.status{margin:0 0 18px;padding:13px 16px;background:#e3edf7;border-radius:8px;font-size:13px}
+label{font-size:14px;margin-bottom:10px;display:block}select{padding:9px;border:1px solid #cfd8e4;border-radius:8px;min-width:170px;background:#fff}
+table{width:100%;border-collapse:collapse;text-align:left;font-size:13px}th,td{padding:12px 8px;border-bottom:1px solid #e8edf3}th{color:#627186;font-weight:600}
+a{color:#1263b0}footer{font-size:12px;color:#5b697b;line-height:1.6;margin-top:25px}
+@media(max-width:800px){.kpis{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.chartrow{grid-template-columns:110px 1fr 50px}header{padding:26px 20px}}
+</style></head><body>
+<header><small>Observatorio de redes sociales · X</small><h1>Visor Albiol</h1><p>Inspector de conversación pública: evolución, idiomas, temas, interacción y procedencia de las publicaciones. Histórico desde el 21 de octubre de 2026.</p></header>
+<main><div id="ultima" class="status" aria-live="polite">Cargando datos...</div>
+<div class="kpis"><article><span>Publicaciones registradas</span><strong id="total">—</strong></article><article><span>Autores únicos</span><strong id="autores">—</strong></article><article><span>Publicaciones de Albiol</span><strong id="propios">—</strong></article><article><span>Publicaciones en catalán</span><strong id="catalan">—</strong></article></div>
+<div class="grid"><article><h2>Actividad diaria</h2><div id="dias"></div></article><article><h2>Idiomas</h2><div id="idiomas"></div></article><article><h2>Temas detectados</h2><div id="temas"></div></article><article><h2>Fuentes de recopilación</h2><div id="fuentes"></div></article></div>
+<section class="wide"><article><h2>Publicaciones con mayor interacción</h2><label for="filtro">Filtrar idioma</label><select id="filtro"><option value="todos">Todos</option><option value="es">Castellano</option><option value="ca">Catalán</option><option value="mixto">Mixto</option><option value="otro">Otros</option><option value="indeterminado">Indeterminado</option></select><div id="tabla"></div></article></section>
+<footer><p id="avisos"></p><p>Datos observados en X: cobertura sujeta a la API y a límites de recopilación. No es una encuesta ni una medida representativa de la opinión pública. Las temáticas y los idiomas son clasificaciones automáticas susceptibles de error. Las publicaciones pueden aparecer en varias fuentes, pero cada ID cuenta una sola vez en el total.</p></footer>
+</main><script type="module" src="./app.js"></script></body></html>

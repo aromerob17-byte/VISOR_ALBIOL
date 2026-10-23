@@ -1,0 +1,36 @@
+name: Recopilar conversación (consume créditos X)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visor-albiol-recopilacion
+  cancel-in-progress: false
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar estructura
+        run: npm test
+      - name: Recopilar X (consume API)
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: npm run collect
+      - name: Generar indicadores web
+        run: npm run process
+      - name: Persistir histórico
+        run: |
+          git config user.name 'Visor Albiol Bot'
+          git config user.email 'actions@github.com'
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualizar histórico Visor Albiol'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

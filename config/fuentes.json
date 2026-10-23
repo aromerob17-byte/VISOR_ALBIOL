@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "inicio_utc": "2026-10-20T22:00:00Z",
+  "zona_horaria": "Europe/Madrid",
+  "cuenta_principal": "Albiol_XG",
+  "terminos": [
+    "Albiol",
+    "@Albiol_XG"
+  ],
+  "conversaciones": [
+    {
+      "id": "2112800267305460199",
+      "url": "https://x.com/cafedidees_rtve/status/2112800267305460199",
+      "etiqueta": "Cafè d'Idees — 21 de octubre",
+      "activa": true
+    }
+  ],
+  "limites": {
+    "max_peticiones_por_ejecucion": 10,
+    "max_posts_por_ejecucion": 500,
+    "max_paginas_por_fuente": 2,
+    "max_hilos_albiol_por_ejecucion": 3,
+    "dias_seguimiento_hilos": 3,
+    "max_citas_por_hilo": 100
+  },
+  "incluir_republicaciones_en_busquedas": false,
+  "recopilacion_automatica": false
+}
