@@ -54,6 +54,18 @@ function renderOverview(){
     card.append(small,strong,span);root.append(card);
   }
   $('hero-number').textContent=compact(d.interacciones);
+  $('hero-posts').textContent=number(d.posts??d.total_posts);
+  $('hero-authors').textContent=number(d.autores??d.total_autores);
+  const trend=$('hero-trend');
+  trend.replaceChildren();
+  const days=(d.por_dia||[]).slice(-6);
+  const maximum=Math.max(1,...days.map(day=>day.posts||0));
+  for(const day of days){
+    const bar=document.createElement('span');
+    bar.style.height=(Math.max(3,Math.round((day.posts||0)/maximum*24)))+'px';
+    bar.title=day.fecha+': '+number(day.posts)+' publicaciones';
+    trend.append(bar);
+  }
   $('type-interactions').textContent=number(scope.interacciones);
   $('impressions-coverage').textContent=coverage.toLocaleString('es-ES',{maximumFractionDigits:1})+' %';
   $('header-updated').textContent='Corte · '+dateTime(d.actualizado_en);
