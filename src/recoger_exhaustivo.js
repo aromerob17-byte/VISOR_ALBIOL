@@ -16,6 +16,8 @@ const MAX_REQUESTS=Number(process.env.MAX_REQUESTS||'120');
 const MAX_RELEVANT_QUOTES=Number(process.env.MAX_RELEVANT_QUOTES||'20');
 let requests=0,records=0,newRecords=0;
 const errors=[],completed=[],partial=[],omitted=[];
+// Los avisos de ejecuciones anteriores permanecen en commits, no se arrastran al resumen actual.
+estado.avisos=[];
 let stopReason='';
 const root='2112800267305460199';
 const fields='created_at,author_id,conversation_id,lang,public_metrics,referenced_tweets,note_tweet';
@@ -73,7 +75,8 @@ function queryURL(f,paramsState){
  q.set('tweet.fields',fields);
  if(f.kind==='search'){
   q.set('query',f.query);
-  q.set('start_time',start);
+  if(!paramsState.until_id)q.set('start_time',start);
+  // X no permite 'until_id' junto con 'start_time'. Usamos la fecha solo en la primera página.
   // Guardar el ID del más antiguo es más robusto que un token que puede caducar.
   if(paramsState.until_id)q.set('until_id',paramsState.until_id);
   // Orden recency: el identificador más antiguo sirve para seguir hacia atrás.
@@ -132,7 +135,8 @@ async function sweep(f){
    s.consultado_en=startedAt;
    // Una búsqueda agotada o una lista sin token ha terminado.
    const hasNext=Boolean(json.meta?.next_token);
-   const done=!hasNext||postList.length===0;
+   const fueraDePeriodo=f.kind==='search'&&postList.some(p=>Date.parse(p.created_at)<isoStart);
+   const done=!hasNext||postList.length===0||fueraDePeriodo;
    if(done){
     s.barrido_completo=true;s.completa=true;s.terminado_en=new Date().toISOString();
     completed.push(f.code);

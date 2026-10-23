@@ -1,4 +1,4 @@
-name: Barrido prioritario de respuestas y citas — 21 octubre
+name: Barrido desde 21 octubre — reanudación con paginación corregida
 on:
   push:
     paths:
@@ -40,3 +40,5 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+
+# Segunda ejecución puntual: corrige la incompatibilidad until_id + start_time.
