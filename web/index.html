@@ -1,30 +1,87 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="theme-color" content="#0d2038"/><title>Visor Albiol · Conversación pública</title>
-<style>
-:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial;color:#13253d;background:#f2f5f9}
-*{box-sizing:border-box}body{margin:0}header{background:#0d2038;color:#fff;padding:36px max(24px,calc((100vw - 1120px)/2))}
-header small{font-size:12px;letter-spacing:.15em;color:#8ec5ff;text-transform:uppercase}
-h1{font-size:clamp(28px,5vw,46px);letter-spacing:-.04em;margin:10px 0}header p{color:#d3ddea;max-width:740px;line-height:1.65}
-main{max-width:1120px;margin:24px auto;padding:0 20px 48px}
-.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-article{background:#fff;border:1px solid #e2e7ee;border-radius:14px;padding:20px;box-shadow:0 4px 18px #10244108}
-.kpis article span{font-size:13px;color:#52657c}.kpis article strong{display:block;font-size:31px;letter-spacing:-.03em;margin-top:8px}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:16px}
-h2{font-size:18px;margin:0 0 20px}section.wide{margin-top:16px}
-.chartrow{display:grid;grid-template-columns:135px 1fr 58px;align-items:center;gap:12px;margin:10px 0;font-size:13px;color:#46566c}
-.chartrow>span:last-child{text-align:right;font-variant-numeric:tabular-nums;color:#16324e}
-.charttrack{background:#ebf1f7;height:12px;border-radius:10px;overflow:hidden}.bar{height:100%;background:#176dc1;border-radius:10px}
-.status{margin:0 0 18px;padding:13px 16px;background:#e3edf7;border-radius:8px;font-size:13px}
-label{font-size:14px;margin-bottom:10px;display:block}select{padding:9px;border:1px solid #cfd8e4;border-radius:8px;min-width:170px;background:#fff}
-table{width:100%;border-collapse:collapse;text-align:left;font-size:13px}th,td{padding:12px 8px;border-bottom:1px solid #e8edf3}th{color:#627186;font-weight:600}
-a{color:#1263b0}footer{font-size:12px;color:#5b697b;line-height:1.6;margin-top:25px}
-@media(max-width:800px){.kpis{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.chartrow{grid-template-columns:110px 1fr 50px}header{padding:26px 20px}}
-</style></head><body>
-<header><small>Observatorio de redes sociales · X</small><h1>Visor Albiol</h1><p>Inspector de conversación pública: evolución, idiomas, temas, interacción y procedencia de las publicaciones. Histórico desde el 21 de octubre de 2026.</p></header>
-<main><div id="ultima" class="status" aria-live="polite">Cargando datos...</div>
-<div class="kpis"><article><span>Publicaciones registradas</span><strong id="total">—</strong></article><article><span>Autores únicos</span><strong id="autores">—</strong></article><article><span>Publicaciones de Albiol</span><strong id="propios">—</strong></article><article><span>Publicaciones en catalán</span><strong id="catalan">—</strong></article></div>
-<div class="grid"><article><h2>Actividad diaria</h2><div id="dias"></div></article><article><h2>Idiomas</h2><div id="idiomas"></div></article><article><h2>Temas detectados</h2><div id="temas"></div></article><article><h2>Fuentes de recopilación</h2><div id="fuentes"></div></article></div>
-<section class="wide"><article><h2>Publicaciones con mayor interacción</h2><label for="filtro">Filtrar idioma</label><select id="filtro"><option value="todos">Todos</option><option value="es">Castellano</option><option value="ca">Catalán</option><option value="mixto">Mixto</option><option value="otro">Otros</option><option value="indeterminado">Indeterminado</option></select><div id="tabla"></div></article></section>
-<footer><p id="avisos"></p><p>Datos observados en X: cobertura sujeta a la API y a límites de recopilación. No es una encuesta ni una medida representativa de la opinión pública. Las temáticas y los idiomas son clasificaciones automáticas susceptibles de error. Las publicaciones pueden aparecer en varias fuentes, pero cada ID cuenta una sola vez en el total.</p></footer>
-</main><script type="module" src="./app.js"></script></body></html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#06152f"/>
+  <meta name="description" content="Visor Albiol. Observatorio de conversación pública en X desde el 21 de octubre de 2026."/>
+  <title>Visor Albiol · Pulso de la conversación pública</title>
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+  <div class="background-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <a href="#inicio" class="brand"><span class="brand-mark">VA<span class="brand-point">·</span></span><span class="brand-words"><strong>VISOR ALBIOL</strong><small>Observatorio de conversación pública</small></span></a>
+    <nav aria-label="Navegación"><a href="#panorama">Panorama</a><a href="#publicaciones">Publicaciones</a><a href="#actividad">Albiol</a><a href="#metodo">Metodología</a></nav>
+    <span class="header-date"><span class="live-dot"></span><span id="header-updated">Último corte · —</span></span>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> CONVERSACIÓN PÚBLICA · X / TWITTER</div>
+        <h1>El pulso de<br><em>la conversación.</em></h1>
+        <p class="hero-description">Qué se dice sobre Xavier García Albiol, cuánto circula y cuáles son las publicaciones que concentran la atención. Una lectura documental de la conversación en X desde el <strong>21 de octubre de 2026.</strong></p>
+        <div class="hero-info"><span><i class="small-circle"></i><span id="hero-status">Cargando histórico…</span></span><span>Castellano · Catalán · Otros idiomas</span></div>
+      </div>
+      <div class="hero-graphic" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="orbit-dot orbit-dot-a"></div><div class="orbit-dot orbit-dot-b"></div>
+        <div class="orbit-center"><strong id="hero-number">—</strong><span>interacciones observadas</span></div>
+      </div>
+    </section>
+
+    <section id="panorama" class="panorama-section">
+      <div class="section-heading with-controls">
+        <div><div class="eyebrow">01 / PANORAMA GENERAL</div><h2>La conversación, <span>en cifras.</span></h2></div>
+        <div class="control-group"><span>IDIOMA</span><div class="segment" id="language-controls" role="group" aria-label="Filtrar conversación por idioma"></div></div>
+      </div>
+      <div id="data-status" class="data-notice" role="status">Recuperando indicadores del histórico…</div>
+      <div class="kpi-grid" id="kpis"></div>
+      <div class="analytics-grid">
+        <article class="panel evolution">
+          <div class="panel-header"><div><div class="eyebrow">EVOLUCIÓN DEL PERIODO</div><h3>Volumen de conversación</h3></div><div class="secondary-label">Publicaciones por fecha</div></div>
+          <div id="daily-chart" class="daily-chart"></div>
+          <div class="chart-legend"><span><b class="legend-dot blue"></b> Castellano</span><span><b class="legend-dot teal"></b> Catalán</span><span><b class="legend-dot grey"></b> Otros idiomas</span></div>
+        </article>
+        <article class="panel language">
+          <div class="panel-header"><div><div class="eyebrow">COMPOSICIÓN LINGÜÍSTICA</div><h3>En qué idioma se habla</h3></div></div>
+          <div class="language-spot"><div class="donut" id="lang-donut"><span id="lang-donut-value">—<small>publicaciones</small></span></div><div class="language-breakdown" id="language-bars"></div></div>
+          <p class="panel-caption">Clasificación automática orientativa; los mensajes bilingües tienen categoría propia.</p>
+        </article>
+      </div>
+      <div class="analytics-grid secondary-grid">
+        <article class="panel"><div class="panel-header"><div><div class="eyebrow">CONTENIDO</div><h3>Principales temáticas detectadas</h3></div><span class="secondary-label">Etiquetas múltiples</span></div><div id="topic-bars" class="bar-list"></div><p class="panel-caption">Etiquetado inicial por palabras clave. No es un análisis de sentimiento; parte de las publicaciones quedan sin clasificar.</p></article>
+        <article class="panel"><div class="panel-header"><div><div class="eyebrow">TIPOLOGÍA</div><h3>Cómo se desarrolla el debate</h3></div></div><div id="type-bars" class="bar-list"></div><div class="insight-divider"></div><div class="secondary-line"><span>Interacciones registradas</span><strong id="type-interactions">—</strong></div><div class="secondary-line"><span>Impresiones disponibles en</span><strong id="impressions-coverage">—</strong></div></article>
+      </div>
+    </section>
+
+    <section id="publicaciones" class="ranking-section">
+      <div class="section-heading with-controls"><div><div class="eyebrow">02 / LAS PUBLICACIONES DEL PERIODO</div><h2>Los mensajes que <span>más circulan.</span></h2><p class="section-intro">Top 10 de las publicaciones recogidas, de cualquier cuenta. El orden responde exclusivamente a las métricas observadas.</p></div>
+      <div class="control-group"><span>ORDENAR POR</span><div class="segment metric-segment" id="general-controls" role="group" aria-label="Ordenar publicaciones generales"></div></div></div>
+      <div class="ranking-layout"><div class="ranking-feature" id="general-feature"></div><div class="ranking-list" id="general-ranking"></div></div>
+    </section>
+
+    <section id="actividad" class="ranking-section">
+      <div class="section-heading with-controls"><div><div class="eyebrow">03 / ACTIVIDAD DEL ALCALDE</div><h2>Las publicaciones <span>de Albiol.</span></h2><p class="section-intro">Top 10 de su propia actividad capturada desde el 21 de octubre. Respuestas, citas y publicaciones originales, sin contar simples republicaciones.</p></div>
+      <div class="control-group"><span>ORDENAR POR</span><div class="segment metric-segment" id="albiol-controls" role="group" aria-label="Ordenar publicaciones de Albiol"></div></div></div>
+      <div class="ranking-layout"><div class="ranking-feature" id="albiol-feature"></div><div class="ranking-list" id="albiol-ranking"></div></div>
+    </section>
+
+    <section id="metodo" class="method-section">
+      <div><div class="eyebrow">04 / CRITERIOS DE LECTURA</div><h2>Qué estamos <span>midiendo.</span></h2><p>Los datos describen publicaciones públicas capturadas en X. No son una encuesta ni pueden extrapolarse a la opinión del conjunto de la población.</p></div>
+      <div class="method-grid">
+        <article><strong>Universo observado</strong><p>Menciones a Albiol, publicaciones de su cuenta, respuestas directas, citas y conversación asociada. Un mismo ID cuenta una sola vez y las fuentes pueden superponerse.</p></article>
+        <article><strong>Interacciones</strong><p>Suma de me gusta, republicaciones, respuestas y citas, según los valores disponibles al recopilar. Las impresiones se muestran por separado y no equivalen a usuarios únicos.</p></article>
+        <article><strong>Rankings</strong><p>Ordenación descriptiva por métricas de publicaciones individuales. No implica valoración del contenido, del autor ni de sus posiciones políticas.</p></article>
+        <article><strong>Idiomas y temáticas</strong><p>Detección automatizada susceptible de errores, particularmente en textos breves o bilingües. La clasificación temática es provisional y admite varias categorías por publicación.</p></article>
+        <article><strong>Histórico acumulativo</strong><p>Periodo inicial: 21/10/2026. Las cifras son fotografías de los registros almacenados; una interacción o impresión puede haber cambiado desde la última consulta.</p></article>
+        <article><strong>Límites de cobertura</strong><p>No todo lo publicado en X es recuperable. Las conversaciones relacionadas pueden incluir respuestas que no mencionan directamente a Albiol. No se incluyen mensajes privados.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><span><strong>VISOR ALBIOL</strong> · Observatorio de conversación pública en X</span><span>Desde el 21.10.2026 · made by Àlex Romero Burgueño</span></footer>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
