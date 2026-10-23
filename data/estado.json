@@ -1,6 +1,51 @@
 {
   "version": 1,
-  "por_fuente": {},
-  "ultima_ejecucion": null,
-  "avisos": []
+  "por_fuente": {
+    "texto": {
+      "ultima_consulta": "2026-10-23T09:37:47.055Z",
+      "completa": false,
+      "ultimo_lote": 200,
+      "paginas": 2
+    },
+    "mencion_directa": {
+      "ultima_consulta": "2026-10-23T09:37:47.617Z",
+      "completa": false,
+      "ultimo_lote": 199,
+      "paginas": 2
+    },
+    "actividad_propia": {
+      "ultima_consulta": "2026-10-23T09:37:47.993Z",
+      "completa": true,
+      "ultimo_lote": 12,
+      "paginas": 1,
+      "hasta_completado": "2026-10-23T09:37:47.993Z"
+    },
+    "respuesta_directa": {
+      "ultima_consulta": "2026-10-23T09:37:48.158Z",
+      "completa": false,
+      "ultimo_lote": 100,
+      "paginas": 1
+    }
+  },
+  "ultima_ejecucion": "2026-10-23T09:37:47.055Z",
+  "avisos": [
+    "Fuente incompleta: texto; cursor conservado",
+    "Fuente incompleta: mencion_directa; cursor conservado",
+    "Fuente incompleta: respuesta_directa; cursor conservado",
+    "Omitida por límites: hilo:2112800267305460199",
+    "Omitida por límites: citas:2112800267305460199"
+  ],
+  "ultima_estadistica": {
+    "peticiones": 6,
+    "posts": 511,
+    "fuentes_completas": 1,
+    "avisos": [
+      "Fuente incompleta: texto; cursor conservado",
+      "Fuente incompleta: mencion_directa; cursor conservado",
+      "Fuente incompleta: respuesta_directa; cursor conservado",
+      "Omitida por límites: hilo:2112800267305460199",
+      "Omitida por límites: citas:2112800267305460199"
+    ],
+    "ejecutado_en": "2026-10-23T09:37:47.055Z"
+  }
 }
