@@ -31,6 +31,8 @@ jobs:
           node-version: '22'
       - name: Verificar estructura sin acceso a X
         run: npm test
+      - name: Comprobar sintaxis del frontend
+        run: node --check web/app.js
       - name: Recalcular estadísticas sobre histórico (sin API de X)
         run: npm run process
       - name: Construir sitio estático
