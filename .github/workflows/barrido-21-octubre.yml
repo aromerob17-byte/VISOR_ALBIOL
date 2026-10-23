@@ -1,0 +1,42 @@
+name: Barrido prioritario de respuestas y citas — 21 octubre
+on:
+  push:
+    paths:
+      - '.github/workflows/barrido-21-octubre.yml'
+permissions:
+  contents: write
+concurrency:
+  group: visor-albiol-recopilacion
+  cancel-in-progress: false
+jobs:
+  barrido:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validación técnica (sin API)
+        run: npm test
+      - name: Barrido de X (hasta 6000 lecturas, máximo 120 peticiones)
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          MAX_POSTS: '6000'
+          MAX_REQUESTS: '120'
+          MAX_RELEVANT_QUOTES: '20'
+        run: node src/recoger_exhaustivo.js
+      - name: Procesar métricas
+        if: always()
+        run: node src/procesar.js
+      - name: Guardar histórico y estado incluso si hay incidencias
+        if: always()
+        run: |
+          git config user.name 'Visor Albiol Bot'
+          git config user.email 'actions@github.com'
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Rastrear respuestas y citas desde 21 octubre'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
