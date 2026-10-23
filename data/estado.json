@@ -3,21 +3,31 @@
   "por_fuente": {
     "texto": {
       "ultima_consulta": "2026-10-23T09:37:47.055Z",
-      "completa": false,
-      "ultimo_lote": 200,
+      "completa": true,
+      "ultimo_lote": 100,
       "paginas": 2,
-      "until_id": "2113329165785034889",
+      "until_id": "2112585576499057037",
       "max_existing_id": "2113564592823525732",
-      "token": null
+      "token": null,
+      "peticiones": 6,
+      "registros_leidos": 599,
+      "consultado_en": "2026-10-23T09:58:53.281Z",
+      "barrido_completo": true,
+      "terminado_en": "2026-10-23T09:58:58.544Z"
     },
     "mencion_directa": {
       "ultima_consulta": "2026-10-23T09:37:47.617Z",
-      "completa": false,
-      "ultimo_lote": 199,
+      "completa": true,
+      "ultimo_lote": 97,
       "paginas": 2,
-      "until_id": "2113349288734626238",
+      "until_id": "2112640671773491285",
       "max_existing_id": "2113565353519268020",
-      "token": null
+      "token": null,
+      "peticiones": 24,
+      "registros_leidos": 2381,
+      "consultado_en": "2026-10-23T09:58:53.281Z",
+      "barrido_completo": true,
+      "terminado_en": "2026-10-23T09:59:06.164Z"
     },
     "actividad_propia": {
       "ultima_consulta": "2026-10-23T09:37:47.993Z",
@@ -36,21 +46,29 @@
     },
     "respuesta_directa": {
       "ultima_consulta": "2026-10-23T09:37:48.158Z",
-      "completa": false,
-      "ultimo_lote": 100,
+      "completa": true,
+      "ultimo_lote": 98,
       "paginas": 1,
-      "until_id": "2113335165816606925",
+      "until_id": "2112626237373902992",
       "max_existing_id": "2113565221545541985",
-      "token": null
+      "token": null,
+      "peticiones": 10,
+      "registros_leidos": 995,
+      "consultado_en": "2026-10-23T09:58:53.281Z",
+      "barrido_completo": true,
+      "terminado_en": "2026-10-23T09:59:10.806Z"
     },
     "hilo:2112800267305460199": {
-      "until_id": "2112942157614985322",
-      "max_existing_id": null,
+      "until_id": "2112800267305460199",
+      "max_existing_id": "2113478109060387294",
       "token": null,
-      "peticiones": 1,
-      "registros_leidos": 100,
-      "ultimo_lote": 100,
-      "consultado_en": "2026-10-23T09:57:08.862Z"
+      "peticiones": 2,
+      "registros_leidos": 182,
+      "ultimo_lote": 82,
+      "consultado_en": "2026-10-23T09:58:53.281Z",
+      "barrido_completo": true,
+      "completa": true,
+      "terminado_en": "2026-10-23T09:58:54.074Z"
     },
     "citas:2112800267305460199": {
       "until_id": null,
@@ -65,31 +83,40 @@
       "terminado_en": "2026-10-23T09:57:12.181Z"
     },
     "respuestas_a_cita:2112831029471858790": {
-      "until_id": "2113130904843415916",
-      "max_existing_id": null,
+      "until_id": "2112831029471858790",
+      "max_existing_id": "2113352830027202989",
       "token": null,
-      "peticiones": 1,
-      "registros_leidos": 100,
-      "ultimo_lote": 100,
-      "consultado_en": "2026-10-23T09:57:08.862Z"
+      "peticiones": 6,
+      "registros_leidos": 531,
+      "ultimo_lote": 33,
+      "consultado_en": "2026-10-23T09:58:53.281Z",
+      "barrido_completo": true,
+      "completa": true,
+      "terminado_en": "2026-10-23T09:58:55.507Z"
     },
     "respuestas_a_cita:2112864367012159802": {
-      "until_id": "2112869824833507479",
-      "max_existing_id": null,
+      "until_id": "2112864367012159802",
+      "max_existing_id": "2113233082941890569",
       "token": null,
-      "peticiones": 1,
-      "registros_leidos": 100,
-      "ultimo_lote": 100,
-      "consultado_en": "2026-10-23T09:57:08.862Z"
+      "peticiones": 2,
+      "registros_leidos": 103,
+      "ultimo_lote": 3,
+      "consultado_en": "2026-10-23T09:58:53.281Z",
+      "barrido_completo": true,
+      "completa": true,
+      "terminado_en": "2026-10-23T09:58:55.824Z"
     },
     "respuestas_a_cita:2112962007347450229": {
-      "until_id": "2112985245683437793",
-      "max_existing_id": null,
+      "until_id": "2112962007347450229",
+      "max_existing_id": "2113327423781540256",
       "token": null,
-      "peticiones": 1,
-      "registros_leidos": 99,
-      "ultimo_lote": 99,
-      "consultado_en": "2026-10-23T09:57:08.862Z"
+      "peticiones": 2,
+      "registros_leidos": 108,
+      "ultimo_lote": 9,
+      "consultado_en": "2026-10-23T09:58:53.281Z",
+      "barrido_completo": true,
+      "completa": true,
+      "terminado_en": "2026-10-23T09:58:56.058Z"
     },
     "respuestas_a_cita:2112838788250800388": {
       "until_id": "2112838788250800388",
@@ -284,13 +311,16 @@
       "terminado_en": "2026-10-23T09:57:15.989Z"
     },
     "respuestas_a_cita:2112991320134279495": {
-      "until_id": "2113279238400799110",
-      "max_existing_id": null,
+      "until_id": "2112991320134279495",
+      "max_existing_id": "2113569717885845528",
       "token": null,
-      "peticiones": 1,
-      "registros_leidos": 100,
-      "ultimo_lote": 100,
-      "consultado_en": "2026-10-23T09:57:08.862Z"
+      "peticiones": 2,
+      "registros_leidos": 188,
+      "ultimo_lote": 88,
+      "consultado_en": "2026-10-23T09:58:53.281Z",
+      "barrido_completo": true,
+      "completa": true,
+      "terminado_en": "2026-10-23T09:58:56.579Z"
     },
     "respuestas_albiol:2112913810839191704": {
       "until_id": "2112913810839191704",
@@ -341,13 +371,16 @@
       "terminado_en": "2026-10-23T09:57:18.053Z"
     },
     "respuestas_albiol:2112960212131074163": {
-      "until_id": "2113309201254723916",
-      "max_existing_id": null,
+      "until_id": "2112960212131074163",
+      "max_existing_id": "2113567288771105063",
       "token": null,
-      "peticiones": 1,
-      "registros_leidos": 100,
-      "ultimo_lote": 100,
-      "consultado_en": "2026-10-23T09:57:08.862Z"
+      "peticiones": 7,
+      "registros_leidos": 689,
+      "ultimo_lote": 91,
+      "consultado_en": "2026-10-23T09:58:53.281Z",
+      "barrido_completo": true,
+      "completa": true,
+      "terminado_en": "2026-10-23T09:59:13.311Z"
     },
     "citas_albiol:2112960212131074163": {
       "until_id": null,
@@ -471,23 +504,8 @@
     },
     "_barrido": {}
   },
-  "ultima_ejecucion": "2026-10-23T09:57:08.862Z",
-  "avisos": [
-    "Fuente incompleta: texto; cursor conservado",
-    "Fuente incompleta: mencion_directa; cursor conservado",
-    "Fuente incompleta: respuesta_directa; cursor conservado",
-    "Omitida por límites: hilo:2112800267305460199",
-    "Omitida por límites: citas:2112800267305460199",
-    "hilo:2112800267305460199: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2112942157614985322\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_a_cita:2112831029471858790: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113130904843415916\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_a_cita:2112864367012159802: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2112869824833507479\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_a_cita:2112962007347450229: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2112985245683437793\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_a_cita:2112991320134279495: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113279238400799110\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "texto: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113329165785034889\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "mencion_directa: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113349288734626238\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuesta_directa: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113335165816606925\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_albiol:2112960212131074163: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113309201254723916\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}"
-  ],
+  "ultima_ejecucion": "2026-10-23T09:58:53.281Z",
+  "avisos": [],
   "ultima_estadistica": {
     "peticiones": 6,
     "posts": 511,
@@ -502,13 +520,17 @@
     "ejecutado_en": "2026-10-23T09:37:47.055Z"
   },
   "ultimo_barrido": {
-    "iniciado_en": "2026-10-23T09:57:08.862Z",
-    "peticiones": 67,
-    "registros_leidos": 3483,
-    "nuevos_unicos_en_lotes": 3331,
-    "estimacion_lectura_posts_usd": 17.42,
+    "iniciado_en": "2026-10-23T09:58:53.281Z",
+    "peticiones": 55,
+    "registros_leidos": 5177,
+    "nuevos_unicos_en_lotes": 2247,
+    "estimacion_lectura_posts_usd": 25.89,
     "fuentes_completas": [
+      "hilo:2112800267305460199",
       "citas:2112800267305460199",
+      "respuestas_a_cita:2112831029471858790",
+      "respuestas_a_cita:2112864367012159802",
+      "respuestas_a_cita:2112962007347450229",
       "respuestas_a_cita:2112838788250800388",
       "respuestas_a_cita:2112995255066689552",
       "respuestas_a_cita:2112832121211380032",
@@ -525,11 +547,16 @@
       "respuestas_a_cita:2112850240772391164",
       "respuestas_a_cita:2112832735547113511",
       "respuestas_a_cita:2113174879595827457",
+      "respuestas_a_cita:2112991320134279495",
+      "texto",
+      "mencion_directa",
+      "respuesta_directa",
       "actividad_propia",
       "respuestas_albiol:2112913810839191704",
       "citas_albiol:2112913810839191704",
       "respuestas_albiol:2112942195003048308",
       "citas_albiol:2112942195003048308",
+      "respuestas_albiol:2112960212131074163",
       "citas_albiol:2112960212131074163",
       "respuestas_albiol:2113011459517194447",
       "citas_albiol:2113011459517194447",
@@ -542,17 +569,7 @@
       "citas_albiol:2113346318508634156"
     ],
     "fuentes_incompletas": [],
-    "errores": [
-      "hilo:2112800267305460199: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2112942157614985322\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-      "respuestas_a_cita:2112831029471858790: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113130904843415916\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-      "respuestas_a_cita:2112864367012159802: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2112869824833507479\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-      "respuestas_a_cita:2112962007347450229: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2112985245683437793\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-      "respuestas_a_cita:2112991320134279495: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113279238400799110\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-      "texto: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113329165785034889\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-      "mencion_directa: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113349288734626238\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-      "respuesta_directa: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113335165816606925\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-      "respuestas_albiol:2112960212131074163: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113309201254723916\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}"
-    ],
+    "errores": [],
     "omitidas": [],
     "parada": null
   }

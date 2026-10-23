@@ -1,30 +1,30 @@
 {
   "version": 1,
   "inicio": "2026-10-21",
-  "actualizado_en": "2026-10-23T09:57:08.862Z",
-  "total_posts": 3748,
-  "total_autores": 2929,
+  "actualizado_en": "2026-10-23T09:58:53.281Z",
+  "total_posts": 5995,
+  "total_autores": 4288,
   "publicaciones_albiol": 12,
-  "impresiones_disponibles_en": 3748,
+  "impresiones_disponibles_en": 5995,
   "idiomas": {
-    "es": 2511,
-    "ca": 925,
-    "otro": 175,
-    "mixto": 133,
-    "indeterminado": 4
+    "es": 3943,
+    "ca": 1443,
+    "otro": 409,
+    "mixto": 187,
+    "indeterminado": 13
   },
   "fuentes": {
-    "texto": 200,
-    "mencion_directa": 199,
-    "respuesta_directa": 100,
-    "respuestas_albiol:2112960212131074163": 100,
+    "texto": 735,
+    "mencion_directa": 2514,
+    "respuesta_directa": 999,
+    "respuestas_albiol:2112960212131074163": 689,
     "respuestas_albiol:2113272709501141237": 21,
     "respuestas_albiol:2113346318508634156": 25,
     "respuestas_a_cita:2113263100400934971": 28,
     "respuestas_albiol:2112942195003048308": 84,
-    "hilo:2112800267305460199": 100,
+    "hilo:2112800267305460199": 182,
     "respuestas_a_cita:2113024887262487000": 21,
-    "respuestas_a_cita:2112831029471858790": 100,
+    "respuestas_a_cita:2112831029471858790": 531,
     "actividad_propia": 12,
     "respuestas_albiol:2113336151150940367": 5,
     "respuestas_albiol:2113217794141470976": 2,
@@ -34,8 +34,11 @@
     "respuestas_a_cita:2113215830817374518": 14,
     "respuestas_a_cita:2113174879595827457": 3,
     "respuestas_a_cita:2112995255066689552": 44,
+    "respuestas_a_cita:2112991320134279495": 188,
+    "respuestas_a_cita:2112962007347450229": 108,
     "respuestas_a_cita:2112930345498619917": 14,
     "respuestas_a_cita:2112924050963968295": 7,
+    "respuestas_a_cita:2112864367012159802": 103,
     "respuestas_a_cita:2112856683793809625": 16,
     "respuestas_a_cita:2112855608118632800": 16,
     "respuestas_a_cita:2112851240136704155": 26,
@@ -45,9 +48,6 @@
     "respuestas_a_cita:2112832121211380032": 34,
     "respuestas_a_cita:2112828008989933796": 12,
     "respuestas_a_cita:2112819681002164730": 11,
-    "respuestas_a_cita:2112864367012159802": 100,
-    "respuestas_a_cita:2112962007347450229": 99,
-    "respuestas_a_cita:2112991320134279495": 100,
     "citas_albiol:2112913810839191704": 13,
     "citas_albiol:2112942195003048308": 2,
     "citas_albiol:2112960212131074163": 1427,
@@ -57,19 +57,19 @@
   "por_dia": [
     {
       "fecha": "2026-10-21",
-      "posts": 1437,
-      "autores": 1190,
+      "posts": 2879,
+      "autores": 2215,
       "propios": 6,
-      "es": 881,
-      "ca": 394
+      "es": 1743,
+      "ca": 778
     },
     {
       "fecha": "2026-10-22",
-      "posts": 1857,
-      "autores": 1503,
+      "posts": 2662,
+      "autores": 2007,
       "propios": 6,
-      "es": 1318,
-      "ca": 429
+      "es": 1888,
+      "ca": 563
     },
     {
       "fecha": "2026-10-23",
@@ -83,31 +83,31 @@
   "temas": [
     {
       "tema": "Sin clasificar",
-      "posts": 3153
+      "posts": 4788
     },
     {
       "tema": "Servicios públicos",
-      "posts": 287
-    },
-    {
-      "tema": "Elecciones y partidos",
-      "posts": 159
+      "posts": 404
     },
     {
       "tema": "Vivienda",
-      "posts": 112
+      "posts": 304
     },
     {
       "tema": "Seguridad",
-      "posts": 34
+      "posts": 302
+    },
+    {
+      "tema": "Elecciones y partidos",
+      "posts": 224
     },
     {
       "tema": "Inmigración",
-      "posts": 31
+      "posts": 61
     },
     {
       "tema": "Economía",
-      "posts": 12
+      "posts": 20
     }
   ],
   "top_interacciones": [
@@ -116,14 +116,28 @@
       "fecha": "2026-10-21T17:32:26.000Z",
       "autor": "Albiol_XG",
       "idioma": "es",
-      "interacciones": 13440,
-      "likes": 9692,
-      "republicaciones": 3133,
+      "interacciones": 13446,
+      "likes": 9696,
+      "republicaciones": 3135,
       "respuestas": 533,
       "citas": 82,
-      "impresiones": 329539,
+      "impresiones": 329582,
       "url": "https://x.com/i/web/status/2112960212131074163",
       "propio": true
+    },
+    {
+      "id": "2113326519464464413",
+      "fecha": "2026-10-22T17:48:00.000Z",
+      "autor": "918490448632664064",
+      "idioma": "es",
+      "interacciones": 5440,
+      "likes": 4502,
+      "republicaciones": 904,
+      "respuestas": 23,
+      "citas": 11,
+      "impresiones": 53567,
+      "url": "https://x.com/i/web/status/2113326519464464413",
+      "propio": false
     },
     {
       "id": "2112989258487050641",
@@ -194,6 +208,20 @@
       "impresiones": 7464,
       "url": "https://x.com/i/web/status/2113346318508634156",
       "propio": true
+    },
+    {
+      "id": "2112968338263417245",
+      "fecha": "2026-10-21T18:04:43.000Z",
+      "autor": "18577646",
+      "idioma": "mixto",
+      "interacciones": 1222,
+      "likes": 1081,
+      "republicaciones": 79,
+      "respuestas": 45,
+      "citas": 17,
+      "impresiones": 39086,
+      "url": "https://x.com/i/web/status/2112968338263417245",
+      "propio": false
     },
     {
       "id": "2113567119879307513",
@@ -432,52 +460,9 @@
       "impresiones": 0,
       "url": "https://x.com/i/web/status/2113544547074474190",
       "propio": false
-    },
-    {
-      "id": "2113543229291311122",
-      "fecha": "2026-10-23T08:09:08.000Z",
-      "autor": "100543854",
-      "idioma": "es",
-      "interacciones": 1073,
-      "likes": 0,
-      "republicaciones": 1073,
-      "respuestas": 0,
-      "citas": 0,
-      "impresiones": 0,
-      "url": "https://x.com/i/web/status/2113543229291311122",
-      "propio": false
-    },
-    {
-      "id": "2113542324496028106",
-      "fecha": "2026-10-23T08:05:32.000Z",
-      "autor": "2947087091",
-      "idioma": "es",
-      "interacciones": 1073,
-      "likes": 0,
-      "republicaciones": 1073,
-      "respuestas": 0,
-      "citas": 0,
-      "impresiones": 0,
-      "url": "https://x.com/i/web/status/2113542324496028106",
-      "propio": false
     }
   ],
-  "avisos": [
-    "Fuente incompleta: texto; cursor conservado",
-    "Fuente incompleta: mencion_directa; cursor conservado",
-    "Fuente incompleta: respuesta_directa; cursor conservado",
-    "Omitida por límites: hilo:2112800267305460199",
-    "Omitida por límites: citas:2112800267305460199",
-    "hilo:2112800267305460199: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2112942157614985322\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_a_cita:2112831029471858790: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113130904843415916\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_a_cita:2112864367012159802: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2112869824833507479\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_a_cita:2112962007347450229: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2112985245683437793\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_a_cita:2112991320134279495: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113279238400799110\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "texto: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113329165785034889\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "mencion_directa: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113349288734626238\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuesta_directa: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113335165816606925\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}",
-    "respuestas_albiol:2112960212131074163: HTTP 400 {\"detail\":\"One or more parameters to your request was invalid.\",\"errors\":[{\"message\":\"Invalid use of 'since_id' or 'until_id' in conjunction with 'start_time' or 'end_time'.\",\"parameters\":{\"start_time\":[\"2026-10-20T22:00Z\"],\"until_id\":[\"2113309201254723916\"]}}],\"title\":\"Invalid Request\",\"type\":\"https://api.x.com/2/problems/invalid-request\"}"
-  ],
+  "avisos": [],
   "estado": "DATOS_DISPONIBLES",
   "notas": [
     "Fuentes solapadas: no sumar recuentos de procedencia.",
