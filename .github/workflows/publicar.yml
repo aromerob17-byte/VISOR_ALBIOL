@@ -1,5 +1,13 @@
-name: Publicar visor web
+name: Publicar Visor Albiol
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'src/procesar.js'
+      - 'src/publicar.js'
+      - 'data/posts/**'
+      - '.github/workflows/publicar.yml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -9,20 +17,32 @@ concurrency:
   group: visor-albiol-pages
   cancel-in-progress: true
 jobs:
-  deploy:
+  publicar:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm run site
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Verificar estructura sin acceso a X
+        run: npm test
+      - name: Recalcular estadísticas sobre histórico (sin API de X)
+        run: npm run process
+      - name: Construir sitio estático
+        run: npm run site
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Subir sitio web
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-      - id: deployment
+      - name: Publicar
+        id: deployment
         uses: actions/deploy-pages@v4
