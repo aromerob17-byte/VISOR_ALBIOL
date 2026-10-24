@@ -1,6 +1,13 @@
-name: Recopilar conversación (consume créditos X)
+name: Recopilar conversación Albiol — 06:00 Madrid
 on:
+  schedule:
+    - cron: '0 6 * * *'
+      timezone: 'Europe/Madrid'
   workflow_dispatch:
+  # Arranque inicial al implantar esta programación. No se repite en cada cambio del código.
+  push:
+    paths:
+      - '.github/workflows/recopilar.yml'
 permissions:
   contents: write
 concurrency:
@@ -9,6 +16,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     steps:
       - name: Obtener repositorio
         uses: actions/checkout@v4
@@ -16,21 +24,25 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validar estructura
+      - name: Validación técnica sin gasto
         run: npm test
-      - name: Recopilar X (consume API)
+      - name: Recopilar X con límite total de presupuesto
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          MAX_REQUESTS: '600'
+          MAX_MINUTES: '160'
         run: npm run collect
-      - name: Generar indicadores web
+      - name: Actualizar indicadores públicos
+        if: always()
         run: npm run process
-      - name: Persistir histórico
+      - name: Conservar base histórica, cursores y contabilidad
+        if: always()
         run: |
           git config user.name 'Visor Albiol Bot'
           git config user.email 'actions@github.com'
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m 'Actualizar histórico Visor Albiol'
+            git commit -m 'Actualizar conversación pública Albiol y presupuesto'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
