@@ -7,6 +7,7 @@ on:
       - 'src/procesar.js'
       - 'src/publicar.js'
       - 'data/posts/**'
+      - 'data/public/**'
       - '.github/workflows/publicar.yml'
   workflow_dispatch:
 permissions:
