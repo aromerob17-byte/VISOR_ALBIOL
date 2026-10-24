@@ -1,8 +1,8 @@
 import {leerJSON, escribirJSON, guardarLote, todosLosPosts} from './almacen.js';
 
-// Recogida incremental. El presupuesto es TOTAL para el Visor, no diario.
-// X factura lecturas de Posts (USD 0,005) y usuarios (USD 0,010);
-// se reserva el peor coste de cada página antes de pedirla.
+// Recogida incremental con consumo del saldo disponible en X.
+// Nunca se compran créditos ni se activan recargas; no hay límite propio acumulado.
+// El gasto se registra solo a efectos informativos.
 const config=leerJSON('config/fuentes.json',null);
 const bearer=process.env.X_BEARER_TOKEN;
 const api='https://api.x.com/2';
@@ -12,8 +12,8 @@ const now=new Date();
 const limits=config.limites;
 const estado=leerJSON('data/estado.json',{version:1,por_fuente:{},avisos:[]});
 estado.por_fuente ||= {};
-const budget=estado.presupuesto_visor || {moneda:'USD',limite_total:500,gasto_estimado:0,lecturas:0,usuarios:0};
-budget.limite_total=Math.min(Number(budget.limite_total||500),Number(config.presupuesto_total_usd||500));
+const budget=estado.presupuesto_visor || {moneda:'USD',gasto_estimado:0,lecturas:0,usuarios:0};
+delete budget.limite_total;
 if(!Number.isFinite(budget.gasto_estimado))throw Error('Contabilidad del presupuesto inválida');
 const control={iniciado_en:now.toISOString(),peticiones:0,leidos:0,nuevos:0,fuentes_completadas:0,avisos:[],parada:null};
 const maxRequests=Number(process.env.MAX_REQUESTS||limits.max_peticiones_por_ejecucion||500);
@@ -63,14 +63,9 @@ function canRequest(){
  if(control.parada)return false;
  if(Date.now()>deadline){control.parada='Límite de tiempo de la ejecución';return false;}
  if(control.peticiones>=maxRequests){control.parada='Límite de peticiones de esta ejecución';return false;}
- if(budget.limite_total-budget.gasto_estimado<0.15){
-  control.parada='Presupuesto acumulado del Visor agotado';return false;
- }
  return true;
 }
-function pageSize(){
- return Math.min(100,Math.floor((budget.limite_total-budget.gasto_estimado)/0.015));
-}
+function pageSize(){return 100;}
 async function saldo(){
  try{
   const r=await fetch(api+'/usage/credits',{headers:{Authorization:'Bearer '+bearer}});
@@ -81,8 +76,6 @@ async function saldo(){
 }
 async function request(url,users){
  if(!canRequest())return null;
- const page=pageSize();
- if(page<10){control.parada='Reserva insuficiente para una página de X';return null;}
  const r=await fetch(url,{headers:{Authorization:'Bearer '+bearer}});
  if(!r.ok){
   const detail=(await r.text()).slice(0,300);
@@ -206,7 +199,7 @@ async function main(){
  const plan=[...originals(),...dynamic()];
  if(!process.argv.includes('--execute')){
   console.log(JSON.stringify({modo:'PLAN SIN GASTO',inicio:config.inicio_utc,
-   presupuesto_usd:budget.limite_total,gasto_estimado_usd:budget.gasto_estimado,
+   gasto_estimado_usd:budget.gasto_estimado,
    fuentes:plan.map(p=>({fuente:p.code,consulta:p.query||p.id}))},null,2));return;
  }
  if(!bearer)throw Error('Falta el secreto X_BEARER_TOKEN. No se consultó X.');
@@ -214,7 +207,7 @@ async function main(){
  const balance=await saldo();
  if(balance!==null){
   estado.saldo_x_ultimo_usd=balance;
-  if(balance<0.15){control.parada='Sin saldo suficiente en X';persist();return;}
+  if(balance<=0){control.parada='Sin saldo disponible en X';persist();return;}
  }
  for(const f of plan){if(!canRequest())break;await sweep(f);}
  if(canRequest())await refreshMetrics();
