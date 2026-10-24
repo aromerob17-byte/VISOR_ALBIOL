@@ -51,8 +51,8 @@ const resumen={
  version:1,analizado_en:new Date().toISOString(),
  objeto:'Detectar referencias al futbolista Raúl Albiol en la base del Visor sobre Xavier García Albiol',
  alcance:{registros_analizados:totalPosts,publicaciones_sin_republicacion:totalPosts-retweets,republicaciones:retweets},
- exclusiones:{configuradas:excluded.size,encontradas:presentExcluded.length,
-   no_encontradas:[...excluded].filter(id=>!byId.has(id))},
+ exclusiones:{configuradas:excluded.size,encontradas_en_base:presentExcluded.length,
+   retiradas_del_historico:[...excluded].filter(id=>!byId.has(id)).length},
  categorias:counts,
  total_candidatos:candidates.length,
  nuevos_sin_excluir:candidates.filter(p=>p.categoria!=='excluido_confirmado').length,
@@ -62,7 +62,7 @@ const resumen={
  cautelas:[
   'El análisis recorre todos los registros guardados, no todas las publicaciones existentes en X.',
   'La clasificación es heurística; menciones futbolísticas sin apellido pueden no detectarse.',
-  'Solo se excluyen automáticamente de las estadísticas los seis IDs ya validados.',
+  'Los registros futbolísticos confirmados se retiran del histórico activo y quedan bloqueados para futuras recogidas.',
   'Una republicación se audita pero no forma parte del universo principal del visor.',
   'Las categorías detectan candidatos a revisar y no constituyen una prueba definitiva de identidad.'
  ]
@@ -71,4 +71,5 @@ escribirJSON(outputDir+'/resumen.json',resumen);
 console.log('AUDITORIA_FUTBOL '+JSON.stringify({alcance:resumen.alcance,exclusiones:resumen.exclusiones,
  categorias:resumen.categorias,total_candidatos:resumen.total_candidatos,
  nuevos_originales_sin_excluir:resumen.nuevos_originales_sin_excluir,archivos:files.length}));
-if(resumen.exclusiones.no_encontradas.length)process.exitCode=1;
+// Un ID bloqueado presente en el histórico es una anomalía; su ausencia es lo correcto.
+if(presentExcluded.length)process.exitCode=1;
