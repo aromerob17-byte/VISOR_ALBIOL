@@ -1,8 +1,8 @@
 import {leerJSON,escribirJSON,guardarLote,todosLosPosts} from './almacen.js';
 
 // Refresco extraordinario y acotado del TOP de la cuenta de Albiol.
-// Máximo: una página de 20 publicaciones propias y una lectura de los ID antiguos
-// que esa página no incluya. Sin búsquedas masivas ni compra de créditos.
+// Hasta cinco páginas de 100 publicaciones propias y una lectura de IDs antiguos
+// que esas páginas no incluyan. Sin búsquedas de terceros ni compra de créditos.
 const cfg=leerJSON('config/fuentes.json',null);
 const token=process.env.X_BEARER_TOKEN;
 if(!token)throw Error('Falta X_BEARER_TOKEN; no se ha consultado la API de X.');
@@ -56,17 +56,24 @@ async function main(){
   const final=new Date(Date.now()-20000).toISOString();
   const q=new URLSearchParams({
     query:'from:'+cfg.cuenta_principal+' -is:retweet',
-    max_results:'20',
+    max_results:'100',
     'tweet.fields':fields,
     expansions:'author_id',
     'user.fields':'username,name',
     start_time:cfg.inicio_utc,
     end_time:final
   });
-  const primer=await xget(api+'/tweets/search/recent?'+q);
-  const usuarios=Object.fromEntries((primer.includes?.users||[]).map(u=>[String(u.id),u]));
-  const firstCount=guardar(primer.data,'actividad_propia',usuarios);
-  if(primer.meta?.next_token)avisos.push('Hay más de 20 publicaciones propias; por ahorro no se ha paginado.');
+  let pagina=null,paginas=0,totalPropios=0;
+  do{
+    const params=new URLSearchParams(q);
+    if(pagina)params.set('pagination_token',pagina);
+    const resultado=await xget(api+'/tweets/search/recent?'+params);
+    const usuarios=Object.fromEntries((resultado.includes?.users||[]).map(u=>[String(u.id),u]));
+    totalPropios+=guardar(resultado.data,'actividad_propia',usuarios);
+    pagina=resultado.meta?.next_token||null;
+    paginas++;
+  }while(pagina&&paginas<5);
+  if(pagina)avisos.push('El histórico propio supera 500 publicaciones; quedaron páginas pendientes.');
 
   const faltantes=propiosAntes.filter(p=>!recogidos.has(String(p.id))).slice(0,100);
   if(faltantes.length){
@@ -82,7 +89,7 @@ async function main(){
   estado.presupuesto_visor=presupuesto;
   estado.ultimo_refresco_albiol={
     ejecutado_en:new Date().toISOString(),peticiones,leidos,nuevos,
-    publicaciones_propias_observadas:firstCount,
+    publicaciones_propias_observadas:totalPropios,
     antiguas_consultadas:faltantes.length,avisos
   };
   escribirJSON('data/estado.json',estado);
