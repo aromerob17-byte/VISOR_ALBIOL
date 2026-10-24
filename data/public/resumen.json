@@ -2,36 +2,36 @@
   "version": 2,
   "inicio": "2026-10-21",
   "actualizado_en": "2026-10-24T16:30:19.695Z",
-  "posts": 4160,
-  "autores": 2756,
-  "interacciones": 72173,
-  "impresiones": 2964183,
-  "con_impresiones": 4160,
-  "likes": 54638,
-  "reposts": 12640,
-  "respuestas": 4326,
+  "posts": 4088,
+  "autores": 2689,
+  "interacciones": 71953,
+  "impresiones": 2798677,
+  "con_impresiones": 4088,
+  "likes": 54442,
+  "reposts": 12636,
+  "respuestas": 4306,
   "citas": 569,
   "propios": 9,
   "idiomas": {
-    "es": 2644,
+    "es": 2599,
     "ca": 986,
-    "mixto": 103,
-    "otro": 414,
+    "mixto": 102,
+    "otro": 388,
     "indeterminado": 13
   },
   "tipos": {
-    "original": 393,
-    "respuesta": 3503,
-    "cita": 264
+    "original": 392,
+    "respuesta": 3439,
+    "cita": 257
   },
   "impresiones_cobertura": 100,
-  "total_posts": 4160,
-  "total_autores": 2756,
+  "total_posts": 4088,
+  "total_autores": 2689,
   "publicaciones_albiol": 9,
-  "impresiones_disponibles_en": 4160,
-  "exclusiones_fuera_de_ambito": 6,
+  "impresiones_disponibles_en": 4088,
+  "exclusiones_fuera_de_ambito": 80,
   "fuentes": {
-    "texto": 1060,
+    "texto": 988,
     "mencion_directa": 2514,
     "respuesta_directa": 999,
     "respuestas_albiol:2112960212131074163": 689,
@@ -74,11 +74,11 @@
   "por_dia": [
     {
       "fecha": "2026-10-21",
-      "posts": 1889,
-      "autores": 1415,
+      "posts": 1887,
+      "autores": 1413,
       "interacciones": 42512,
-      "impresiones": 1801217,
-      "con_impresiones": 1889,
+      "impresiones": 1800944,
+      "con_impresiones": 1887,
       "likes": 32123,
       "reposts": 7419,
       "respuestas": 2620,
@@ -88,12 +88,12 @@
         "es": 1102,
         "ca": 521,
         "mixto": 47,
-        "otro": 212,
+        "otro": 210,
         "indeterminado": 7
       },
       "tipos": {
         "original": 163,
-        "respuesta": 1612,
+        "respuesta": 1610,
         "cita": 114
       },
       "impresiones_cobertura": 100,
@@ -102,74 +102,74 @@
     },
     {
       "fecha": "2026-10-22",
-      "posts": 1661,
-      "autores": 1103,
-      "interacciones": 20287,
-      "impresiones": 797309,
-      "con_impresiones": 1661,
-      "likes": 15824,
-      "reposts": 3208,
-      "respuestas": 1100,
+      "posts": 1642,
+      "autores": 1084,
+      "interacciones": 20083,
+      "impresiones": 715659,
+      "con_impresiones": 1642,
+      "likes": 15638,
+      "reposts": 3204,
+      "respuestas": 1086,
       "citas": 155,
       "propios": 5,
       "idiomas": {
-        "es": 1077,
+        "es": 1068,
         "ca": 382,
-        "mixto": 45,
-        "otro": 152,
+        "mixto": 44,
+        "otro": 143,
         "indeterminado": 5
       },
       "tipos": {
-        "original": 127,
-        "respuesta": 1436,
-        "cita": 98
+        "original": 126,
+        "respuesta": 1421,
+        "cita": 95
       },
       "impresiones_cobertura": 100,
-      "es": 1077,
+      "es": 1068,
       "ca": 382
     },
     {
       "fecha": "2026-10-23",
-      "posts": 469,
-      "autores": 377,
-      "interacciones": 6593,
-      "impresiones": 301376,
-      "con_impresiones": 469,
-      "likes": 4571,
+      "posts": 420,
+      "autores": 331,
+      "interacciones": 6577,
+      "impresiones": 217859,
+      "con_impresiones": 420,
+      "likes": 4561,
       "reposts": 1510,
-      "respuestas": 456,
+      "respuestas": 450,
       "citas": 56,
       "propios": 0,
       "idiomas": {
-        "es": 343,
+        "es": 309,
         "ca": 72,
         "mixto": 7,
-        "otro": 47,
+        "otro": 32,
         "indeterminado": 0
       },
       "tipos": {
         "original": 60,
-        "respuesta": 370,
-        "cita": 39
+        "respuesta": 324,
+        "cita": 36
       },
       "impresiones_cobertura": 100,
-      "es": 343,
+      "es": 309,
       "ca": 72
     },
     {
       "fecha": "2026-10-24",
-      "posts": 141,
-      "autores": 136,
+      "posts": 139,
+      "autores": 134,
       "interacciones": 2781,
-      "impresiones": 64281,
-      "con_impresiones": 141,
+      "impresiones": 64215,
+      "con_impresiones": 139,
       "likes": 2120,
       "reposts": 503,
       "respuestas": 150,
       "citas": 8,
       "propios": 0,
       "idiomas": {
-        "es": 122,
+        "es": 120,
         "ca": 11,
         "mixto": 4,
         "otro": 3,
@@ -177,18 +177,18 @@
       },
       "tipos": {
         "original": 43,
-        "respuesta": 85,
-        "cita": 13
+        "respuesta": 84,
+        "cita": 12
       },
       "impresiones_cobertura": 100,
-      "es": 122,
+      "es": 120,
       "ca": 11
     }
   ],
   "temas": [
     {
       "tema": "Sin clasificar",
-      "posts": 3114
+      "posts": 3042
     },
     {
       "tema": "Vivienda",
@@ -217,7 +217,7 @@
   ],
   "temas_por_idioma": {
     "todos": {
-      "Sin clasificar": 3114,
+      "Sin clasificar": 3042,
       "Inmigración": 64,
       "Seguridad": 304,
       "Vivienda": 329,
@@ -226,7 +226,7 @@
       "Servicios públicos": 323
     },
     "es": {
-      "Sin clasificar": 1930,
+      "Sin clasificar": 1885,
       "Inmigración": 37,
       "Seguridad": 227,
       "Vivienda": 291,
@@ -244,7 +244,7 @@
       "Economía": 3
     },
     "mixto": {
-      "Sin clasificar": 66,
+      "Sin clasificar": 65,
       "Vivienda": 14,
       "Elecciones y partidos": 16,
       "Servicios públicos": 5,
@@ -252,7 +252,7 @@
     },
     "otro": {
       "Economía": 1,
-      "Sin clasificar": 348,
+      "Sin clasificar": 322,
       "Seguridad": 47,
       "Vivienda": 1,
       "Servicios públicos": 16,
@@ -266,43 +266,43 @@
   },
   "por_idioma": {
     "todos": {
-      "posts": 4160,
-      "autores": 2756,
-      "interacciones": 72173,
-      "impresiones": 2964183,
-      "con_impresiones": 4160,
-      "likes": 54638,
-      "reposts": 12640,
-      "respuestas": 4326,
+      "posts": 4088,
+      "autores": 2689,
+      "interacciones": 71953,
+      "impresiones": 2798677,
+      "con_impresiones": 4088,
+      "likes": 54442,
+      "reposts": 12636,
+      "respuestas": 4306,
       "citas": 569,
       "propios": 9,
       "idiomas": {
-        "es": 2644,
+        "es": 2599,
         "ca": 986,
-        "mixto": 103,
-        "otro": 414,
+        "mixto": 102,
+        "otro": 388,
         "indeterminado": 13
       },
       "tipos": {
-        "original": 393,
-        "respuesta": 3503,
-        "cita": 264
+        "original": 392,
+        "respuesta": 3439,
+        "cita": 257
       },
       "impresiones_cobertura": 100
     },
     "es": {
-      "posts": 2644,
-      "autores": 1867,
-      "interacciones": 59587,
-      "impresiones": 1941018,
-      "con_impresiones": 2644,
-      "likes": 45148,
-      "reposts": 11159,
-      "respuestas": 2932,
+      "posts": 2599,
+      "autores": 1822,
+      "interacciones": 59520,
+      "impresiones": 1789270,
+      "con_impresiones": 2599,
+      "likes": 45090,
+      "reposts": 11158,
+      "respuestas": 2924,
       "citas": 348,
       "propios": 8,
       "idiomas": {
-        "es": 2644,
+        "es": 2599,
         "ca": 0,
         "mixto": 0,
         "otro": 0,
@@ -310,8 +310,8 @@
       },
       "tipos": {
         "original": 244,
-        "respuesta": 2236,
-        "cita": 164
+        "respuesta": 2197,
+        "cita": 158
       },
       "impresiones_cobertura": 100
     },
@@ -341,52 +341,52 @@
       "impresiones_cobertura": 100
     },
     "mixto": {
-      "posts": 103,
-      "autores": 91,
-      "interacciones": 3763,
-      "impresiones": 222648,
-      "con_impresiones": 103,
-      "likes": 2543,
-      "reposts": 415,
-      "respuestas": 734,
+      "posts": 102,
+      "autores": 90,
+      "interacciones": 3616,
+      "impresiones": 218914,
+      "con_impresiones": 102,
+      "likes": 2407,
+      "reposts": 412,
+      "respuestas": 726,
       "citas": 71,
       "propios": 0,
       "idiomas": {
         "es": 0,
         "ca": 0,
-        "mixto": 103,
+        "mixto": 102,
         "otro": 0,
         "indeterminado": 0
       },
       "tipos": {
-        "original": 29,
+        "original": 28,
         "respuesta": 56,
         "cita": 18
       },
       "impresiones_cobertura": 100
     },
     "otro": {
-      "posts": 414,
-      "autores": 364,
-      "interacciones": 705,
-      "impresiones": 40156,
-      "con_impresiones": 414,
-      "likes": 575,
+      "posts": 388,
+      "autores": 341,
+      "interacciones": 699,
+      "impresiones": 30132,
+      "con_impresiones": 388,
+      "likes": 573,
       "reposts": 82,
-      "respuestas": 46,
+      "respuestas": 42,
       "citas": 2,
       "propios": 0,
       "idiomas": {
         "es": 0,
         "ca": 0,
         "mixto": 0,
-        "otro": 414,
+        "otro": 388,
         "indeterminado": 0
       },
       "tipos": {
         "original": 4,
-        "respuesta": 387,
-        "cita": 23
+        "respuesta": 362,
+        "cita": 22
       },
       "impresiones_cobertura": 100
     },
@@ -735,25 +735,6 @@
             ]
           },
           {
-            "id": "2113390017015890422",
-            "autor": "ARMANDO OSUNA",
-            "username": "ARMANDOOSUNA9",
-            "fecha": "2026-10-22T22:00:19.000Z",
-            "dia": "2026-10-23",
-            "idioma": "es",
-            "tipo": "respuesta",
-            "propio": false,
-            "texto": "@abosalaharena Mata Albiol y ramos",
-            "url": "https://x.com/i/web/status/2113390017015890422",
-            "interacciones": 10,
-            "impresiones": 74298,
-            "likes": 9,
-            "reposts": 0,
-            "respuestas": 1,
-            "citas": 0,
-            "temas": []
-          },
-          {
             "id": "2112801436312678578",
             "autor": "Cuenta en X",
             "username": null,
@@ -831,6 +812,27 @@
             "reposts": 96,
             "respuestas": 466,
             "citas": 35,
+            "temas": [
+              "Elecciones y partidos"
+            ]
+          },
+          {
+            "id": "2112962007347450229",
+            "autor": "Cuenta en X",
+            "username": null,
+            "fecha": "2026-10-21T17:39:34.000Z",
+            "dia": "2026-10-21",
+            "idioma": "mixto",
+            "tipo": "cita",
+            "propio": false,
+            "texto": "Alguien le debería explicar @Albiol_XG que es el número de la lista 1 del PP al Congreso por Barcelona para hacerle competencia a Vox, no para darle un pase de gol. Con estas declaraciones, Vox estará contentísima. Si sube tanto Vox es por la incompetencia del PP. https://t.co/X02YM3IHk5",
+            "url": "https://x.com/i/web/status/2112962007347450229",
+            "interacciones": 171,
+            "impresiones": 48272,
+            "likes": 77,
+            "reposts": 11,
+            "respuestas": 80,
+            "citas": 3,
             "temas": [
               "Elecciones y partidos"
             ]
@@ -1962,25 +1964,6 @@
             ]
           },
           {
-            "id": "2113390017015890422",
-            "autor": "ARMANDO OSUNA",
-            "username": "ARMANDOOSUNA9",
-            "fecha": "2026-10-22T22:00:19.000Z",
-            "dia": "2026-10-23",
-            "idioma": "es",
-            "tipo": "respuesta",
-            "propio": false,
-            "texto": "@abosalaharena Mata Albiol y ramos",
-            "url": "https://x.com/i/web/status/2113390017015890422",
-            "interacciones": 10,
-            "impresiones": 74298,
-            "likes": 9,
-            "reposts": 0,
-            "respuestas": 1,
-            "citas": 0,
-            "temas": []
-          },
-          {
             "id": "2112942195003048308",
             "autor": "Xavier García Albiol",
             "username": "Albiol_XG",
@@ -2000,25 +1983,6 @@
             "temas": [
               "Vivienda"
             ]
-          },
-          {
-            "id": "2113377903303901598",
-            "autor": "Edu Palacio",
-            "username": "tetricus57",
-            "fecha": "2026-10-22T21:12:11.000Z",
-            "dia": "2026-10-22",
-            "idioma": "es",
-            "tipo": "respuesta",
-            "propio": false,
-            "texto": "@abosalaharena Teoricamente Albiol, Ramos y Mata. Pero ninguno tiene equipo, en este plan podrían estar en activo Pirri o Rexach",
-            "url": "https://x.com/i/web/status/2113377903303901598",
-            "interacciones": 50,
-            "impresiones": 52514,
-            "likes": 47,
-            "reposts": 1,
-            "respuestas": 2,
-            "citas": 0,
-            "temas": []
           },
           {
             "id": "2113211409693835513",
@@ -2075,6 +2039,44 @@
             "reposts": 20,
             "respuestas": 73,
             "citas": 13,
+            "temas": []
+          },
+          {
+            "id": "2113346222132224035",
+            "autor": "VOX 🇪🇸",
+            "username": "vox_es",
+            "fecha": "2026-10-22T19:06:18.000Z",
+            "dia": "2026-10-22",
+            "idioma": "es",
+            "tipo": "original",
+            "propio": false,
+            "texto": "🔴 @Santi_ABASCAL critica la actitud del PP con Milei: “Ha salido 'el más duro' de los que ha colocado Feijóo, el señor Albiol, a condenar sus palabras. Y, detrás de él, el señor Juanma Moreno. Así difícilmente acabamos con este Gobierno”. https://t.co/DtvZX5J721",
+            "url": "https://x.com/i/web/status/2113346222132224035",
+            "interacciones": 773,
+            "impresiones": 29027,
+            "likes": 545,
+            "reposts": 209,
+            "respuestas": 16,
+            "citas": 3,
+            "temas": []
+          },
+          {
+            "id": "2113399786208391646",
+            "autor": "Javier Gonzalez",
+            "username": "javilonger",
+            "fecha": "2026-10-22T22:39:08.000Z",
+            "dia": "2026-10-23",
+            "idioma": "es",
+            "tipo": "respuesta",
+            "propio": false,
+            "texto": "@abosalaharena Albiol Mata Silva",
+            "url": "https://x.com/i/web/status/2113399786208391646",
+            "interacciones": 1,
+            "impresiones": 26242,
+            "likes": 0,
+            "reposts": 0,
+            "respuestas": 1,
+            "citas": 0,
             "temas": []
           }
         ],
@@ -4211,25 +4213,6 @@
             ]
           },
           {
-            "id": "2113093125178802501",
-            "autor": "diyi",
-            "username": "Diyidigiusto",
-            "fecha": "2026-10-22T02:20:35.000Z",
-            "dia": "2026-10-22",
-            "idioma": "mixto",
-            "tipo": "original",
-            "propio": false,
-            "texto": "Calamaro pero es Vicente del Bosque diagramando a la España del 2010 Cambiemos a Marchena No lo quiero a Negredo A Mata, David Silva o Güiza Palop en el banquillo, al lado de Albiol Seguro va Puyol No lo llamo a Navarro Tampoco a Soldado Cazorla lo abandono, no a Llorente",
-            "url": "https://x.com/i/web/status/2113093125178802501",
-            "interacciones": 147,
-            "impresiones": 3734,
-            "likes": 136,
-            "reposts": 3,
-            "respuestas": 8,
-            "citas": 0,
-            "temas": []
-          },
-          {
             "id": "2113029054102216902",
             "autor": "Комісаp",
             "username": "Casfetera",
@@ -4287,6 +4270,27 @@
             "respuestas": 8,
             "citas": 4,
             "temas": []
+          },
+          {
+            "id": "2113602118833610906",
+            "autor": "Adrià Padullés 🇪🇺",
+            "username": "adriapadu",
+            "fecha": "2026-10-23T12:03:08.000Z",
+            "dia": "2026-10-23",
+            "idioma": "mixto",
+            "tipo": "cita",
+            "propio": false,
+            "texto": "⭕️ATENCIÓ: El PP i Vox ultimen un possible acord pel Senat que afectaria Catalunya, segons Nació. Sobre la taula hi ha retirades de candidatures i una possible cessió del senador de designació autonòmica. 🔵🟢 Feijóo ha obert la porta que el PP no es presenti en alguna circumscripció on mai ha aconseguit representac…",
+            "url": "https://x.com/i/web/status/2113602118833610906",
+            "interacciones": 55,
+            "impresiones": 14091,
+            "likes": 44,
+            "reposts": 9,
+            "respuestas": 2,
+            "citas": 0,
+            "temas": [
+              "Elecciones y partidos"
+            ]
           }
         ],
         "impresiones": [
@@ -4472,22 +4476,22 @@
             ]
           },
           {
-            "id": "2113093125178802501",
-            "autor": "diyi",
-            "username": "Diyidigiusto",
-            "fecha": "2026-10-22T02:20:35.000Z",
-            "dia": "2026-10-22",
+            "id": "2112838879686385719",
+            "autor": "ElNacional.cat",
+            "username": "elnacionalcat",
+            "fecha": "2026-10-21T09:30:18.000Z",
+            "dia": "2026-10-21",
             "idioma": "mixto",
             "tipo": "original",
             "propio": false,
-            "texto": "Calamaro pero es Vicente del Bosque diagramando a la España del 2010 Cambiemos a Marchena No lo quiero a Negredo A Mata, David Silva o Güiza Palop en el banquillo, al lado de Albiol Seguro va Puyol No lo llamo a Navarro Tampoco a Soldado Cazorla lo abandono, no a Llorente",
-            "url": "https://x.com/i/web/status/2113093125178802501",
-            "interacciones": 147,
-            "impresiones": 3734,
-            "likes": 136,
-            "reposts": 3,
+            "texto": "💥 Xavier García Albiol: \"Soc del PP, i estic segur que parlo molt més català que Gabriel Rufián\" L'alcalde de Badalona demana replantejar el \"retrocés\" del català: \"Han de ser els experts els qui decideixin les mesures\" https://t.co/iDdxOVTfw6",
+            "url": "https://x.com/i/web/status/2112838879686385719",
+            "interacciones": 59,
+            "impresiones": 3525,
+            "likes": 36,
+            "reposts": 11,
             "respuestas": 8,
-            "citas": 0,
+            "citas": 4,
             "temas": []
           }
         ],
@@ -4571,25 +4575,6 @@
             "temas": [
               "Vivienda"
             ]
-          },
-          {
-            "id": "2113093125178802501",
-            "autor": "diyi",
-            "username": "Diyidigiusto",
-            "fecha": "2026-10-22T02:20:35.000Z",
-            "dia": "2026-10-22",
-            "idioma": "mixto",
-            "tipo": "original",
-            "propio": false,
-            "texto": "Calamaro pero es Vicente del Bosque diagramando a la España del 2010 Cambiemos a Marchena No lo quiero a Negredo A Mata, David Silva o Güiza Palop en el banquillo, al lado de Albiol Seguro va Puyol No lo llamo a Navarro Tampoco a Soldado Cazorla lo abandono, no a Llorente",
-            "url": "https://x.com/i/web/status/2113093125178802501",
-            "interacciones": 147,
-            "impresiones": 3734,
-            "likes": 136,
-            "reposts": 3,
-            "respuestas": 8,
-            "citas": 0,
-            "temas": []
           },
           {
             "id": "2112832121211380032",
@@ -4687,6 +4672,27 @@
             "likes": 44,
             "reposts": 9,
             "respuestas": 2,
+            "citas": 0,
+            "temas": [
+              "Elecciones y partidos"
+            ]
+          },
+          {
+            "id": "2112819681002164730",
+            "autor": "Marta Monforte",
+            "username": "MartaMonforteJ",
+            "fecha": "2026-10-21T08:14:00.000Z",
+            "dia": "2026-10-21",
+            "idioma": "mixto",
+            "tipo": "cita",
+            "propio": false,
+            "texto": "Crec que Albiol es va a cremar com candidat del PP al Congrés. Perquè a banda de deixar \"abandonats\" al seus veïns (no estarà tan present), ací està defensant el contrari del que diu Feijóo. El líder nacional del PP diu que fa falta més castellà, no més català. https://t.co/1GpYWMEWFx",
+            "url": "https://x.com/i/web/status/2112819681002164730",
+            "interacciones": 52,
+            "impresiones": 7933,
+            "likes": 38,
+            "reposts": 8,
+            "respuestas": 6,
             "citas": 0,
             "temas": [
               "Elecciones y partidos"
@@ -5053,25 +5059,6 @@
             "temas": []
           },
           {
-            "id": "2113093125178802501",
-            "autor": "diyi",
-            "username": "Diyidigiusto",
-            "fecha": "2026-10-22T02:20:35.000Z",
-            "dia": "2026-10-22",
-            "idioma": "mixto",
-            "tipo": "original",
-            "propio": false,
-            "texto": "Calamaro pero es Vicente del Bosque diagramando a la España del 2010 Cambiemos a Marchena No lo quiero a Negredo A Mata, David Silva o Güiza Palop en el banquillo, al lado de Albiol Seguro va Puyol No lo llamo a Navarro Tampoco a Soldado Cazorla lo abandono, no a Llorente",
-            "url": "https://x.com/i/web/status/2113093125178802501",
-            "interacciones": 147,
-            "impresiones": 3734,
-            "likes": 136,
-            "reposts": 3,
-            "respuestas": 8,
-            "citas": 0,
-            "temas": []
-          },
-          {
             "id": "2112970423667150906",
             "autor": "Cuenta en X",
             "username": null,
@@ -5091,6 +5078,25 @@
             "temas": [
               "Vivienda"
             ]
+          },
+          {
+            "id": "2112838879686385719",
+            "autor": "ElNacional.cat",
+            "username": "elnacionalcat",
+            "fecha": "2026-10-21T09:30:18.000Z",
+            "dia": "2026-10-21",
+            "idioma": "mixto",
+            "tipo": "original",
+            "propio": false,
+            "texto": "💥 Xavier García Albiol: \"Soc del PP, i estic segur que parlo molt més català que Gabriel Rufián\" L'alcalde de Badalona demana replantejar el \"retrocés\" del català: \"Han de ser els experts els qui decideixin les mesures\" https://t.co/iDdxOVTfw6",
+            "url": "https://x.com/i/web/status/2112838879686385719",
+            "interacciones": 59,
+            "impresiones": 3525,
+            "likes": 36,
+            "reposts": 11,
+            "respuestas": 8,
+            "citas": 4,
+            "temas": []
           }
         ],
         "citas": [
@@ -5487,25 +5493,6 @@
         ],
         "impresiones": [
           {
-            "id": "2113380899861475778",
-            "autor": "Kweku Butterfly",
-            "username": "atuguba92",
-            "fecha": "2026-10-22T21:24:05.000Z",
-            "dia": "2026-10-22",
-            "idioma": "otro",
-            "tipo": "respuesta",
-            "propio": false,
-            "texto": "@abosalaharena Ramos Albiol Navas Silva returned recently;it’s 4 now",
-            "url": "https://x.com/i/web/status/2113380899861475778",
-            "interacciones": 4,
-            "impresiones": 6943,
-            "likes": 1,
-            "reposts": 0,
-            "respuestas": 3,
-            "citas": 0,
-            "temas": []
-          },
-          {
             "id": "2112976116809920993",
             "autor": "Cuenta en X",
             "username": null,
@@ -5660,20 +5647,39 @@
             "temas": []
           },
           {
-            "id": "2113594006928338979",
-            "autor": "Emem Silas",
-            "username": "EmemLeohSilas",
-            "fecha": "2026-10-23T11:30:54.000Z",
-            "dia": "2026-10-23",
+            "id": "2112921751462297727",
+            "autor": "Cuenta en X",
+            "username": null,
+            "fecha": "2026-10-21T14:59:36.000Z",
+            "dia": "2026-10-21",
             "idioma": "otro",
             "tipo": "respuesta",
             "propio": false,
-            "texto": "@abosalaharena @pabloaimar86 Raul albiol still plays.. Pisa sporting fc",
-            "url": "https://x.com/i/web/status/2113594006928338979",
-            "interacciones": 0,
-            "impresiones": 641,
-            "likes": 0,
-            "reposts": 0,
+            "texto": "@cafedidees_rtve @Albiol_XG Quins collons! https://t.co/scBIOI7vfk",
+            "url": "https://x.com/i/web/status/2112921751462297727",
+            "interacciones": 7,
+            "impresiones": 607,
+            "likes": 6,
+            "reposts": 1,
+            "respuestas": 0,
+            "citas": 0,
+            "temas": []
+          },
+          {
+            "id": "2112976322746257855",
+            "autor": "Cuenta en X",
+            "username": null,
+            "fecha": "2026-10-21T18:36:27.000Z",
+            "dia": "2026-10-21",
+            "idioma": "otro",
+            "tipo": "cita",
+            "propio": false,
+            "texto": "https://t.co/bQlYZqAk5U https://t.co/mUkeudgVrg",
+            "url": "https://x.com/i/web/status/2112976322746257855",
+            "interacciones": 45,
+            "impresiones": 589,
+            "likes": 44,
+            "reposts": 1,
             "respuestas": 0,
             "citas": 0,
             "temas": []
@@ -6086,25 +6092,6 @@
             "temas": []
           },
           {
-            "id": "2113380899861475778",
-            "autor": "Kweku Butterfly",
-            "username": "atuguba92",
-            "fecha": "2026-10-22T21:24:05.000Z",
-            "dia": "2026-10-22",
-            "idioma": "otro",
-            "tipo": "respuesta",
-            "propio": false,
-            "texto": "@abosalaharena Ramos Albiol Navas Silva returned recently;it’s 4 now",
-            "url": "https://x.com/i/web/status/2113380899861475778",
-            "interacciones": 4,
-            "impresiones": 6943,
-            "likes": 1,
-            "reposts": 0,
-            "respuestas": 3,
-            "citas": 0,
-            "temas": []
-          },
-          {
             "id": "2113353413304123669",
             "autor": "304",
             "username": "m304elgoat",
@@ -6251,6 +6238,25 @@
             "interacciones": 3,
             "impresiones": 63,
             "likes": 2,
+            "reposts": 0,
+            "respuestas": 1,
+            "citas": 0,
+            "temas": []
+          },
+          {
+            "id": "2113285063769264441",
+            "autor": "Cuenta en X",
+            "username": null,
+            "fecha": "2026-10-22T15:03:16.000Z",
+            "dia": "2026-10-22",
+            "idioma": "otro",
+            "tipo": "respuesta",
+            "propio": false,
+            "texto": "@dnicatala @Deodeo_TS https://t.co/nhh9A6Kvnk",
+            "url": "https://x.com/i/web/status/2113285063769264441",
+            "interacciones": 1,
+            "impresiones": 5,
+            "likes": 0,
             "reposts": 0,
             "respuestas": 1,
             "citas": 0,
@@ -6430,18 +6436,18 @@
             "temas": []
           },
           {
-            "id": "2113665580427559153",
-            "autor": "Picasso",
-            "username": "Picaasso23",
-            "fecha": "2026-10-23T16:15:19.000Z",
+            "id": "2113611825799421969",
+            "autor": "Pink Freud009",
+            "username": "PinkFreud009",
+            "fecha": "2026-10-23T12:41:42.000Z",
             "dia": "2026-10-23",
             "idioma": "otro",
-            "tipo": "respuesta",
+            "tipo": "original",
             "propio": false,
-            "texto": "@743Dharper And us madrid fans pre 3 peat champions league 😭when we had raul albiol as a cb and ramos as an rb😭",
-            "url": "https://x.com/i/web/status/2113665580427559153",
+            "texto": "Ci sono tifosi che hanno il coraggio di paragonare Badiashile e Marin ai vari Kim,Koulibali,Albiol. Solo Io credo forse che Paolo Cannavaro e Hugo Campagnaro siano superiori a questi 2 schierati domani. https://t.co/pKslDtQSRX",
+            "url": "https://x.com/i/web/status/2113611825799421969",
             "interacciones": 0,
-            "impresiones": 41,
+            "impresiones": 13,
             "likes": 0,
             "reposts": 0,
             "respuestas": 0,

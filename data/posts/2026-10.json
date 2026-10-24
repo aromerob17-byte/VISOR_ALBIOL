@@ -405,37 +405,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113555835674612083": {
-    "id": "2113555835674612083",
-    "fecha": "2026-10-23T08:59:13.000Z",
-    "autor_id": "1201269172270981120",
-    "autor_username": "Elreydelabaraj4",
-    "autor_nombre": "Elreydelabaraja",
-    "texto": "@abosalaharena Que estén jugando, al menos albiol y Silva. Que no se hayan retirado, al menos mata y Ramos",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 34,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113555835674612083",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113555509882052754": {
     "id": "2113555509882052754",
     "fecha": "2026-10-23T08:57:56.000Z",
@@ -493,37 +462,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113553024434290874",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113550638105907563": {
-    "id": "2113550638105907563",
-    "fecha": "2026-10-23T08:38:34.000Z",
-    "autor_id": "2912984248",
-    "autor_username": "jlosadaCuatro",
-    "autor_nombre": "Javier",
-    "texto": "@abosalaharena Son 4: Javi Martínez, Albiol, Ramos y Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 47,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113550638105907563",
     "procedencias": [
       "texto"
     ],
@@ -1216,37 +1154,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113525350470717525": {
-    "id": "2113525350470717525",
-    "fecha": "2026-10-23T06:58:05.000Z",
-    "autor_id": "1473043212315119625",
-    "autor_username": "ericvives11",
-    "autor_nombre": "Xeic",
-    "texto": "@abosalaharena 4! Ramos, Albiol, Javi Martinez y Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 117,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113525350470717525",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113524645819482150": {
     "id": "2113524645819482150",
     "fecha": "2026-10-23T06:55:17.000Z",
@@ -1651,69 +1558,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113517049368748456": {
-    "id": "2113517049368748456",
-    "fecha": "2026-10-23T06:25:06.000Z",
-    "autor_id": "113055745",
-    "autor_username": "GoldenZambak",
-    "autor_nombre": "Sandžo Parza",
-    "texto": "Ramos Reina Albiol https://t.co/51HDA1Sqhn",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113517049368748456",
-    "responde_a": null,
-    "cita_a": "2113351935151804852",
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 66,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113517049368748456",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113516218955305376": {
-    "id": "2113516218955305376",
-    "fecha": "2026-10-23T06:21:48.000Z",
-    "autor_id": "257722875",
-    "autor_username": "Sherif_Abboud",
-    "autor_nombre": "Sherif Abboud",
-    "texto": "@_UTDIMole Ronaldo\nGago\nGaray\nMetzelder\nRaul Albiol\nCasillas\nLassana\nSneijder\nRaul\nDrenthe\n😎😎",
-    "idioma_x": "nl",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "nl"
-    },
-    "conversation_id": "2113180657824518423",
-    "responde_a": "2113180657824518423",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 11,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113516218955305376",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113516071642652778": {
     "id": "2113516071642652778",
     "fecha": "2026-10-23T06:21:13.000Z",
@@ -2089,38 +1933,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113500675426373690": {
-    "id": "2113500675426373690",
-    "fecha": "2026-10-23T05:20:02.000Z",
-    "autor_id": "3056304607",
-    "autor_username": "brain_midbrain",
-    "autor_nombre": "mz_h²",
-    "texto": "@abosalaharena Albiol, Mata, David Silva",
-    "idioma_x": "cy",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "cy"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 54,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113500675426373690",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113499406955860202": {
     "id": "2113499406955860202",
     "fecha": "2026-10-23T05:15:00.000Z",
@@ -2183,68 +1995,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113489498952847628": {
-    "id": "2113489498952847628",
-    "fecha": "2026-10-23T04:35:37.000Z",
-    "autor_id": "1454863623843631105",
-    "autor_username": "AlquezarAlex",
-    "autor_nombre": "Alex Alquézar",
-    "texto": "@abosalaharena Albiol, Ramos, Javi Martinez y Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 54,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113489498952847628",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113487621083042003": {
-    "id": "2113487621083042003",
-    "fecha": "2026-10-23T04:28:10.000Z",
-    "autor_id": "2652733755",
-    "autor_username": "RPajare",
-    "autor_nombre": "Rafa",
-    "texto": "@abosalaharena Mata\nRamos \nAlbiol",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 104,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113487621083042003",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113487282996969908": {
     "id": "2113487282996969908",
     "fecha": "2026-10-23T04:26:49.000Z",
@@ -2271,101 +2021,6 @@
       "retweet_count": 2
     },
     "url": "https://x.com/i/web/status/2113487282996969908",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113485723525599358": {
-    "id": "2113485723525599358",
-    "fecha": "2026-10-23T04:20:37.000Z",
-    "autor_id": "56609215",
-    "autor_username": "reayalaa",
-    "autor_nombre": "Rafael Ayala Alvarez",
-    "texto": "Reina, Ramos and Albiol https://t.co/8AvxaxNBYd",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113485723525599358",
-    "responde_a": null,
-    "cita_a": "2113351935151804852",
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 32,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113485723525599358",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113483022636839327": {
-    "id": "2113483022636839327",
-    "fecha": "2026-10-23T04:09:53.000Z",
-    "autor_id": "1512618657536430084",
-    "autor_username": "JimdersonJmd",
-    "autor_nombre": "Jimderson Benitez",
-    "texto": "@soccertorey Raul Albiol?",
-    "idioma_x": "cy",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "cy"
-    },
-    "conversation_id": "2113350923804368970",
-    "responde_a": "2113350923804368970",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 2,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113483022636839327",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113482551306383383": {
-    "id": "2113482551306383383",
-    "fecha": "2026-10-23T04:08:01.000Z",
-    "autor_id": "1484545331048165376",
-    "autor_username": "Todosgolsliga",
-    "autor_nombre": "Anderson Königsdörffer",
-    "texto": "@abosalaharena Raul albiol, ramos and mata",
-    "idioma_x": "et",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "et"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 12,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113482551306383383",
     "procedencias": [
       "texto"
     ],
@@ -2403,37 +2058,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113470476043645430": {
-    "id": "2113470476043645430",
-    "fecha": "2026-10-23T03:20:02.000Z",
-    "autor_id": "2062951002609983488",
-    "autor_username": "psoelona",
-    "autor_nombre": "angel",
-    "texto": "@abosalaharena son cuatro\nSilva\nRamos\nMata\nAlbiol",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 762,
-      "like_count": 1,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113470476043645430",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113460621966803306": {
     "id": "2113460621966803306",
     "fecha": "2026-10-23T02:40:53.000Z",
@@ -2460,99 +2084,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113460621966803306",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113450860818653681": {
-    "id": "2113450860818653681",
-    "fecha": "2026-10-23T02:02:05.000Z",
-    "autor_id": "851495380927864832",
-    "autor_username": "LuisTom75814880",
-    "autor_nombre": "Lucius",
-    "texto": "@abosalaharena En \"activo\" hay 3 , mata ramos y albiol , lo único que ninguno tiene equipo en este momento",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 5,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113450860818653681",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113450578533630385": {
-    "id": "2113450578533630385",
-    "fecha": "2026-10-23T02:00:58.000Z",
-    "autor_id": "151270707",
-    "autor_username": "cedenojeffry",
-    "autor_nombre": "jeffry",
-    "texto": "@abosalaharena Raul albiol \nSérgio Ramos \nJuan mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 93,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113450578533630385",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113446428932755869": {
-    "id": "2113446428932755869",
-    "fecha": "2026-10-23T01:44:29.000Z",
-    "autor_id": "2063673704765136896",
-    "autor_username": "Outlandishrn",
-    "autor_nombre": ".",
-    "texto": "@abosalaharena albiol mata ramos, busquets retired",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 183,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113446428932755869",
     "procedencias": [
       "texto"
     ],
@@ -2585,68 +2116,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113445819043242227",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113445261066301712": {
-    "id": "2113445261066301712",
-    "fecha": "2026-10-23T01:39:50.000Z",
-    "autor_id": "815911884155142144",
-    "autor_username": "RuizdeAlarcon",
-    "autor_nombre": "Nand۞ RuizdeA. Quintero",
-    "texto": "Albiol Sergio Ramos y Silva? https://t.co/eBIdK2llgh",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113445261066301712",
-    "responde_a": null,
-    "cita_a": "2113351935151804852",
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 483,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 2,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113445261066301712",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113440722183770265": {
-    "id": "2113440722183770265",
-    "fecha": "2026-10-23T01:21:48.000Z",
-    "autor_id": "1909838371",
-    "autor_username": "ydpsqmassevilla",
-    "autor_nombre": "Jose Juan Leon Vigo",
-    "texto": "@abosalaharena Albiol en Italia y Ramos y Mata sin equipo",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 418,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113440722183770265",
     "procedencias": [
       "texto"
     ],
@@ -2714,38 +2183,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113431981552029754": {
-    "id": "2113431981552029754",
-    "fecha": "2026-10-23T00:47:04.000Z",
-    "autor_id": "2017418009363501056",
-    "autor_username": "youcefslimanii",
-    "autor_nombre": "Ꮖɦɛʏֆ",
-    "texto": "@abosalaharena Ramos : Agent Free\nMata : Vectory melbroun ( Australie 🇦🇺 )\nRaul Albiol : Pisa ( Italie 🇮🇹 )\nJavi Martinez : Agent Free \nDavid Silva : Sha tin ( Hong Kong 🇭🇰 )",
-    "idioma_x": "ro",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "ro"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 1,
-      "impression_count": 403,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113431981552029754",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113430974310584623": {
     "id": "2113430974310584623",
     "fecha": "2026-10-23T00:43:04.000Z",
@@ -2772,130 +2209,6 @@
       "retweet_count": 1
     },
     "url": "https://x.com/i/web/status/2113430974310584623",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113430058320683237": {
-    "id": "2113430058320683237",
-    "fecha": "2026-10-23T00:39:26.000Z",
-    "autor_id": "270199332",
-    "autor_username": "GabineteForte",
-    "autor_nombre": "GabineteForte 🇧🇬",
-    "texto": "@abosalaharena Albiol, Ramos, Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 19,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113430058320683237",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113426686259667180": {
-    "id": "2113426686259667180",
-    "fecha": "2026-10-23T00:26:02.000Z",
-    "autor_id": "883969986208956417",
-    "autor_username": "chambel_pedro",
-    "autor_nombre": "Pedro Chambel",
-    "texto": "@abosalaharena Javi Martinez, Raul Albiol e Juan Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 400,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113426686259667180",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113420515532513700": {
-    "id": "2113420515532513700",
-    "fecha": "2026-10-23T00:01:31.000Z",
-    "autor_id": "1163480246374600706",
-    "autor_username": "Le_Mar_Mou",
-    "autor_nombre": "LeMar",
-    "texto": "@abosalaharena David Silva , Ramos , Albiol ,  Javi Martinez , juan mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 185,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113420515532513700",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113418808144842974": {
-    "id": "2113418808144842974",
-    "fecha": "2026-10-22T23:54:43.000Z",
-    "autor_id": "1195087146115379218",
-    "autor_username": "AboubercarAkilu",
-    "autor_nombre": "Agent_X😎",
-    "texto": "@abosalaharena Silva,mata,albiol,ramos",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 79,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113418808144842974",
     "procedencias": [
       "texto"
     ],
@@ -2958,37 +2271,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113411613004865550",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113409176609407059": {
-    "id": "2113409176609407059",
-    "fecha": "2026-10-22T23:16:27.000Z",
-    "autor_id": "462255678",
-    "autor_username": "joseiglesias15",
-    "autor_nombre": "jose iglesias",
-    "texto": "@abosalaharena Albiol, Ramos &amp; Martínez",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 5,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113409176609407059",
     "procedencias": [
       "texto"
     ],
@@ -3059,38 +2341,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113406879271624867": {
-    "id": "2113406879271624867",
-    "fecha": "2026-10-22T23:07:19.000Z",
-    "autor_id": "788866431739912192",
-    "autor_username": "fasoolg4m3r",
-    "autor_nombre": "F A I S A L ⭐️⭐️⭐️",
-    "texto": "@abosalaharena Raul Albiol\nJavi Martinez\nJuan Mata",
-    "idioma_x": "eu",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "eu"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 9,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113406879271624867",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113405703758987335": {
     "id": "2113405703758987335",
     "fecha": "2026-10-22T23:02:39.000Z",
@@ -3118,38 +2368,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113405703758987335",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113405057295339727": {
-    "id": "2113405057295339727",
-    "fecha": "2026-10-22T23:00:05.000Z",
-    "autor_id": "1484515332576403459",
-    "autor_username": "AntiSomething4",
-    "autor_nombre": "Anti-Something",
-    "texto": "@abosalaharena david silva albiol  reina",
-    "idioma_x": "cy",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "cy"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 184,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113405057295339727",
     "procedencias": [
       "texto"
     ],
@@ -3212,37 +2430,6 @@
       "retweet_count": 1
     },
     "url": "https://x.com/i/web/status/2113403547266007097",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113402591199613422": {
-    "id": "2113402591199613422",
-    "fecha": "2026-10-22T22:50:17.000Z",
-    "autor_id": "972714686",
-    "autor_username": "Menthor18",
-    "autor_nombre": "El Menthor",
-    "texto": "@abosalaharena Albiol, Ramos y Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 400,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113402591199613422",
     "procedencias": [
       "texto"
     ],
@@ -3311,38 +2498,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113399247353647190": {
-    "id": "2113399247353647190",
-    "fecha": "2026-10-22T22:37:00.000Z",
-    "autor_id": "849511924941430784",
-    "autor_username": "Tarekbaz16",
-    "autor_nombre": "boumbazooo",
-    "texto": "@abosalaharena David silva raoul albiol  sergio busquets",
-    "idioma_x": "cy",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "cy"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 9,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113399247353647190",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113399190508507394": {
     "id": "2113399190508507394",
     "fecha": "2026-10-22T22:36:46.000Z",
@@ -3370,70 +2525,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113399190508507394",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113398790539354331": {
-    "id": "2113398790539354331",
-    "fecha": "2026-10-22T22:35:11.000Z",
-    "autor_id": "337128858",
-    "autor_username": "Richie2106",
-    "autor_nombre": "Abdulrasheed Adeniyi",
-    "texto": "@tetricus57 @abosalaharena Is Raul Albiol no longer with Pisa?",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113377903303901598",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 169,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113398790539354331",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113398438637523351": {
-    "id": "2113398438637523351",
-    "fecha": "2026-10-22T22:33:47.000Z",
-    "autor_id": "337128858",
-    "autor_username": "Richie2106",
-    "autor_nombre": "Abdulrasheed Adeniyi",
-    "texto": "@abosalaharena I don't know who Raul Albiol is owing?",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 16,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113398438637523351",
     "procedencias": [
       "texto"
     ],
@@ -3502,100 +2593,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113396031752683588": {
-    "id": "2113396031752683588",
-    "fecha": "2026-10-22T22:24:13.000Z",
-    "autor_id": "1720665183188922368",
-    "autor_username": "grok",
-    "autor_nombre": "Grok",
-    "texto": "The three remaining active 2010 Spain World Cup winners are Sergio Ramos, Raúl Albiol and Juan Mata. All are currently free agents without a club. Ramos (last at Monterrey) has been linked to a possible Getafe move. Albiol (last at Pisa) is exploring options and taking a coaching course. Mata (last at Melbourne Victory) has joined the club’s ownership group while considering his next playing step.",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113395806426579185",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 4,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113396031752683588",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113395954300973490": {
-    "id": "2113395954300973490",
-    "fecha": "2026-10-22T22:23:55.000Z",
-    "autor_id": "729730997550493696",
-    "autor_username": "MachutaChilando",
-    "autor_nombre": "Chilando Machuta",
-    "texto": "@abosalaharena Ramos albiol Silva and Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 1483,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113395954300973490",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113394666976776245": {
-    "id": "2113394666976776245",
-    "fecha": "2026-10-22T22:18:48.000Z",
-    "autor_id": "940718996328013824",
-    "autor_username": "Asl_MCMXCIII",
-    "autor_nombre": "Albert, S.L.",
-    "texto": "@abosalaharena Albiol, mata, ramos or Reina",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 2252,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113394666976776245",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113393166594298310": {
     "id": "2113393166594298310",
     "fecha": "2026-10-22T22:12:50.000Z",
@@ -3624,38 +2621,6 @@
     "url": "https://x.com/i/web/status/2113393166594298310",
     "procedencias": [
       "mencion_directa",
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113391547576127862": {
-    "id": "2113391547576127862",
-    "fecha": "2026-10-22T22:06:24.000Z",
-    "autor_id": "1720665183188922368",
-    "autor_username": "grok",
-    "autor_nombre": "Grok",
-    "texto": "@tommelstoklnrp @abosalaharena De 3 er Sergio Ramos, Raúl Albiol og Juan Mata. De er stadig uden officiel pensionering (alle uden klub lige nu).",
-    "idioma_x": "da",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "da"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113391359017066772",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 3,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113391547576127862",
-    "procedencias": [
       "texto"
     ],
     "relevancia": "por_revisar"
@@ -3691,37 +2656,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113390017015890422": {
-    "id": "2113390017015890422",
-    "fecha": "2026-10-22T22:00:19.000Z",
-    "autor_id": "2322959723",
-    "autor_username": "ARMANDOOSUNA9",
-    "autor_nombre": "ARMANDO OSUNA",
-    "texto": "@abosalaharena Mata Albiol y ramos",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 74298,
-      "like_count": 9,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113390017015890422",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113388950421168205": {
     "id": "2113388950421168205",
     "fecha": "2026-10-22T21:56:05.000Z",
@@ -3748,37 +2682,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113388950421168205",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113386973872181576": {
-    "id": "2113386973872181576",
-    "fecha": "2026-10-22T21:48:14.000Z",
-    "autor_id": "1546571119322357760",
-    "autor_username": "Joseant47806735",
-    "autor_nombre": "🏴🤍 Jose 🖤🏳️ 🇩🇰🇪🇸",
-    "texto": "@abosalaharena Albiol, Sergio Ramos y Silva.",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 2545,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113386973872181576",
     "procedencias": [
       "texto"
     ],
@@ -3939,131 +2842,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113381411583611321": {
-    "id": "2113381411583611321",
-    "fecha": "2026-10-22T21:26:07.000Z",
-    "autor_id": "1625604280504786945",
-    "autor_username": "Kathy_Vipi_",
-    "autor_nombre": "KathyVipi 🇪🇸",
-    "texto": "@AlaiwiZayed @abosalaharena 5:\n-Ramos\n-Albiol\n-Javi Martinez\n-Juan Mata\n-David Silva",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113378124574638295",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 118,
-      "like_count": 1,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113381411583611321",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113381291705897135": {
-    "id": "2113381291705897135",
-    "fecha": "2026-10-22T21:25:39.000Z",
-    "autor_id": "1709341089818181632",
-    "autor_username": "felipeffj90",
-    "autor_nombre": "Felipe Fernández",
-    "texto": "@abosalaharena Albiol , Mata , Ramos y Silva a vuelta de la retirada son 4 no 3",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 4076,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113381291705897135",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113380899861475778": {
-    "id": "2113380899861475778",
-    "fecha": "2026-10-22T21:24:05.000Z",
-    "autor_id": "2506086927",
-    "autor_username": "atuguba92",
-    "autor_nombre": "Kweku Butterfly",
-    "texto": "@abosalaharena Ramos\nAlbiol\nNavas\n\nSilva returned recently;it’s 4 now",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 6943,
-      "like_count": 1,
-      "quote_count": 0,
-      "reply_count": 3,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113380899861475778",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113380754671432144": {
-    "id": "2113380754671432144",
-    "fecha": "2026-10-22T21:23:31.000Z",
-    "autor_id": "1526205024489066496",
-    "autor_username": "thekidwholies",
-    "autor_nombre": "Jonathan",
-    "texto": "@abosalaharena Mata, Ramos y Albiol",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 3032,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113380754671432144",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113380487108374559": {
     "id": "2113380487108374559",
     "fecha": "2026-10-22T21:22:27.000Z",
@@ -4160,100 +2938,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113378793234604411": {
-    "id": "2113378793234604411",
-    "fecha": "2026-10-22T21:15:43.000Z",
-    "autor_id": "884268475",
-    "autor_username": "yivisonCrisis",
-    "autor_nombre": "DANIEL 🇬🇭",
-    "texto": "@abosalaharena Ramos \nRaul Albiol \nDavid Silva he signed a contract recently",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 2193,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113378793234604411",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113377903303901598": {
-    "id": "2113377903303901598",
-    "fecha": "2026-10-22T21:12:11.000Z",
-    "autor_id": "249731237",
-    "autor_username": "tetricus57",
-    "autor_nombre": "Edu Palacio",
-    "texto": "@abosalaharena Teoricamente Albiol, Ramos y Mata. Pero ninguno tiene equipo, en este plan podrían estar en activo Pirri o Rexach",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "lexico",
-      "confianza": "media"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 52514,
-      "like_count": 47,
-      "quote_count": 0,
-      "reply_count": 2,
-      "retweet_count": 1
-    },
-    "url": "https://x.com/i/web/status/2113377903303901598",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113377899327705373": {
-    "id": "2113377899327705373",
-    "fecha": "2026-10-22T21:12:10.000Z",
-    "autor_id": "383462916",
-    "autor_username": "_LuisAaron",
-    "autor_nombre": "Prince Of Asturies∞❤",
-    "texto": "@abosalaharena Ramos, David Silva, Javi Martínez y Raul Albiol",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 7268,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113377899327705373",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113377556418429000": {
     "id": "2113377556418429000",
     "fecha": "2026-10-22T21:10:48.000Z",
@@ -4322,37 +3006,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113376219404320860": {
-    "id": "2113376219404320860",
-    "fecha": "2026-10-22T21:05:29.000Z",
-    "autor_id": "2026039570501103616",
-    "autor_username": "carlesnu",
-    "autor_nombre": "Carlos",
-    "texto": "Ramos, Albiol y Mata https://t.co/X1ZaArQPUZ",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113376219404320860",
-    "responde_a": null,
-    "cita_a": "2113351935151804852",
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 58,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113376219404320860",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113374654593196454": {
     "id": "2113374654593196454",
     "fecha": "2026-10-22T20:59:16.000Z",
@@ -4379,37 +3032,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113374654593196454",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113374423591895044": {
-    "id": "2113374423591895044",
-    "fecha": "2026-10-22T20:58:21.000Z",
-    "autor_id": "1269656683749523456",
-    "autor_username": "Hafeex_Eesah",
-    "autor_nombre": "Hafiz Isah",
-    "texto": "Raul Albiol\nSergio Ramos\nJuan mata https://t.co/81TIi4w8Xm",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113374423591895044",
-    "responde_a": null,
-    "cita_a": "2113351935151804852",
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 81,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113374423591895044",
     "procedencias": [
       "texto"
     ],
@@ -4472,37 +3094,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113369762688643550",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113368309999763550": {
-    "id": "2113368309999763550",
-    "fecha": "2026-10-22T20:34:04.000Z",
-    "autor_id": "1168469871606292481",
-    "autor_username": "yosef_alibrahem",
-    "autor_nombre": "yousef yacob",
-    "texto": "@abosalaharena Raul Albiol - javi Martinez - Mata",
-    "idioma_x": "und",
-    "idioma": {
-      "codigo": "indeterminado",
-      "metodo": "insuficiente",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 7145,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113368309999763550",
     "procedencias": [
       "texto"
     ],
@@ -5472,38 +4063,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113344835792908394",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113343704551555432": {
-    "id": "2113343704551555432",
-    "fecha": "2026-10-22T18:56:17.000Z",
-    "autor_id": "1246495929529704449",
-    "autor_username": "HerrEmii_",
-    "autor_nombre": "Emi",
-    "texto": "Reina, David López, Albiol, Ghoulam, Koulibaly, Callejón, Higuaín, Hysaj, Hamšík, Insigne y Chiricheş. \n\nTemporada 2015-2016, última del Pipita antes de traicionar al Napoli e irse a la Juve. https://t.co/jyCMbdNTt3",
-    "idioma_x": "ro",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "ro"
-    },
-    "conversation_id": "2113343704551555432",
-    "responde_a": null,
-    "cita_a": "2112185817917427838",
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 142,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113343704551555432",
     "procedencias": [
       "texto"
     ],
@@ -137698,38 +136257,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113311567995338841": {
-    "id": "2113311567995338841",
-    "fecha": "2026-10-22T16:48:35.000Z",
-    "autor_id": "1071524197",
-    "autor_username": "mukongowaboko",
-    "autor_nombre": "Nahshon KIMINA-MAKUMBU",
-    "texto": "@_UTDIMole Dudek the goalkeeper, Raul Gonzalez, Raul Albiol, Lassana Diarra and Drenthe",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2113180657824518423",
-    "responde_a": "2113180657824518423",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 195,
-      "like_count": 1,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113311567995338841",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113310092259102781": {
     "id": "2113310092259102781",
     "fecha": "2026-10-22T16:42:44.000Z",
@@ -139068,37 +137595,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113273415578652827": {
-    "id": "2113273415578652827",
-    "fecha": "2026-10-22T14:16:59.000Z",
-    "autor_id": "4017204646",
-    "autor_username": "PhoenixUduma",
-    "autor_nombre": "Phoenix Collections",
-    "texto": "@_UTDIMole Drenthe,Schneider,Lasanna Diara ,Raul Gonzalez,Fernando Gago,Cristano Ronaldo. Dudek,Benzema ,Raul Albiol ,Ezekiel Garay",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113180657824518423",
-    "responde_a": "2113180657824518423",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 55,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113273415578652827",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113272514717581633": {
     "id": "2113272514717581633",
     "fecha": "2026-10-22T14:13:24.000Z",
@@ -140318,38 +138814,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113238841263841627": {
-    "id": "2113238841263841627",
-    "fecha": "2026-10-22T11:59:36.000Z",
-    "autor_id": "1596641562",
-    "autor_username": "KartalGk9",
-    "autor_nombre": "Kartal",
-    "texto": "@_UTDIMole Dudek\nBenzema\nRaul Albiol\nMetzelder\nGaray\nGago\nCr7\nLass Diarra\nSneijder\nRaul\nRoyston Drenthe",
-    "idioma_x": "nl",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "nl"
-    },
-    "conversation_id": "2113180657824518423",
-    "responde_a": "2113180657824518423",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 28,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113238841263841627",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113238167348281394": {
     "id": "2113238167348281394",
     "fecha": "2026-10-22T11:56:55.000Z",
@@ -140942,38 +139406,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113227869858017782": {
-    "id": "2113227869858017782",
-    "fecha": "2026-10-22T11:16:00.000Z",
-    "autor_id": "1529563988127891456",
-    "autor_username": "RuuDaRibe",
-    "autor_nombre": "RuuDa",
-    "texto": "@_UTDIMole Jerzy Dudek\nKarim Benzema\nEzequiel Garay\nChristoph Metzelder\nRaúl Albiol\nÁlvaro Arbeloa\nCristiano Ronaldo\nRoyston Drenthe\nRaúl, the captain at that time. \nWesley Sneijder\nLassana Diarra",
-    "idioma_x": "fi",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "fi"
-    },
-    "conversation_id": "2113180657824518423",
-    "responde_a": "2113180657824518423",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 234,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113227869858017782",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113227689595150701": {
     "id": "2113227689595150701",
     "fecha": "2026-10-22T11:15:17.000Z",
@@ -141505,38 +139937,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113212973820903826": {
-    "id": "2113212973820903826",
-    "fecha": "2026-10-22T10:16:49.000Z",
-    "autor_id": "1327262131570561030",
-    "autor_username": "utdtiki",
-    "autor_nombre": "Tiki",
-    "texto": "@_UTDIMole Raúl Albiol\nAlvaro Arbeloa\nKaká",
-    "idioma_x": "fi",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "fi"
-    },
-    "conversation_id": "2113180657824518423",
-    "responde_a": "2113180657824518423",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 94,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113212973820903826",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113212072292982969": {
     "id": "2113212072292982969",
     "fecha": "2026-10-22T10:13:14.000Z",
@@ -141656,38 +140056,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113208822810509634",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113208343758340227": {
-    "id": "2113208343758340227",
-    "fecha": "2026-10-22T09:58:25.000Z",
-    "autor_id": "807124055006576640",
-    "autor_username": "shedyclipz",
-    "autor_nombre": "Shedyclipz",
-    "texto": "@_UTDIMole Iker Casillas\nSergio Ramos\nRaúl Albiol\nAlvaro Arbeloa\nKaká",
-    "idioma_x": "fi",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "fi"
-    },
-    "conversation_id": "2113180657824518423",
-    "responde_a": "2113180657824518423",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 299,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113208343758340227",
     "procedencias": [
       "texto"
     ],
@@ -142124,38 +140492,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2113189770591613301",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113188583565562045": {
-    "id": "2113188583565562045",
-    "fecha": "2026-10-22T08:39:54.000Z",
-    "autor_id": "1720665183188922368",
-    "autor_username": "grok",
-    "autor_nombre": "Grok",
-    "texto": "@KgapzSonopo @_UTDIMole @sabelostormz You're right. I mixed that one up. Correct lineup: Iker Casillas, Pepe, Raúl Albiol, Xabi Alonso, Kaká, Cristiano Ronaldo up top; Royston Drenthe, Gonzalo Higuaín, Raúl, Álvaro Arbeloa and Lassana Diarra below. No Benzema or Marcelo in this shot.",
-    "idioma_x": "fi",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "fi"
-    },
-    "conversation_id": "2113180657824518423",
-    "responde_a": "2113188182900838782",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 6,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113188583565562045",
     "procedencias": [
       "texto"
     ],
@@ -143755,37 +142091,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113093125178802501": {
-    "id": "2113093125178802501",
-    "fecha": "2026-10-22T02:20:35.000Z",
-    "autor_id": "1285928414",
-    "autor_username": "Diyidigiusto",
-    "autor_nombre": "diyi",
-    "texto": "Calamaro pero es Vicente del Bosque diagramando a la España del 2010\n\nCambiemos a Marchena\nNo lo quiero a Negredo\nA Mata, David Silva o Güiza\nPalop en el banquillo, al lado de Albiol\nSeguro va Puyol\n\nNo lo llamo a Navarro\nTampoco a Soldado\nCazorla lo abandono, no a Llorente",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "mixto",
-      "metodo": "lexico",
-      "confianza": "media"
-    },
-    "conversation_id": "2113093125178802501",
-    "responde_a": null,
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 5,
-      "impression_count": 3734,
-      "like_count": 136,
-      "quote_count": 0,
-      "reply_count": 8,
-      "retweet_count": 3
-    },
-    "url": "https://x.com/i/web/status/2113093125178802501",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113087124077752707": {
     "id": "2113087124077752707",
     "fecha": "2026-10-22T01:56:44.000Z",
@@ -143910,38 +142215,6 @@
       "mencion_directa",
       "respuesta_directa",
       "respuestas_albiol:2112960212131074163",
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113041152714887256": {
-    "id": "2113041152714887256",
-    "fecha": "2026-10-21T22:54:03.000Z",
-    "autor_id": "995168454096416768",
-    "autor_username": "PrinceDeroy9",
-    "autor_nombre": "CALIFORNIA MAYOR 🇺🇸",
-    "texto": "@AbuZeenat_ Õzil, Pepe, carvalho , Khedira , Alonso, Ronaldo,casilas, Raùl Albiol, Di Maria, Higuain , Marcelo",
-    "idioma_x": "pt",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "pt"
-    },
-    "conversation_id": "2112982461076697423",
-    "responde_a": "2112982461076697423",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 228,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113041152714887256",
-    "procedencias": [
       "texto"
     ],
     "relevancia": "por_revisar"
@@ -145142,38 +143415,6 @@
       "mencion_directa",
       "respuesta_directa",
       "respuestas_albiol:2112960212131074163",
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2112996472849367113": {
-    "id": "2112996472849367113",
-    "fecha": "2026-10-21T19:56:31.000Z",
-    "autor_id": "1096791727757758464",
-    "autor_username": "thfcjoshx",
-    "autor_nombre": "Josh",
-    "texto": "@EAFCconcepts Raul Albiol still has his face scan from like FIFA 13 lol",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2112879243474427948",
-    "responde_a": "2112879243474427948",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 251,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2112996472849367113",
-    "procedencias": [
       "texto"
     ],
     "relevancia": "por_revisar"
@@ -150951,38 +149192,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2112784403013439835": {
-    "id": "2112784403013439835",
-    "fecha": "2026-10-21T05:53:49.000Z",
-    "autor_id": "1704176766833885184",
-    "autor_username": "nothingsnewtbh",
-    "autor_nombre": "dee",
-    "texto": "@mnacy_ 1 and 2 are from raul albiol, 3 is from jesus navas and 4 is from pepe reina!",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2112720514565419397",
-    "responde_a": "2112778430635020531",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 1,
-      "impression_count": 361,
-      "like_count": 15,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2112784403013439835",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2112782567258701854": {
     "id": "2112782567258701854",
     "fecha": "2026-10-21T05:46:32.000Z",
@@ -151394,38 +149603,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2112743623167295711": {
-    "id": "2112743623167295711",
-    "fecha": "2026-10-21T03:11:47.000Z",
-    "autor_id": "1172942857772195841",
-    "autor_username": "bornfrompain2k1",
-    "autor_nombre": "lvc23",
-    "texto": "@Amerzaben1 Pepe reina(kaleci), raul albiol, koulibaly, ghoulam, callejon\nhysaj, hamsik, insigne, jorginho, mertens, marko rog",
-    "idioma_x": "ht",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "ht"
-    },
-    "conversation_id": "2112426188366868896",
-    "responde_a": "2112426188366868896",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 22,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2112743623167295711",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2112712307331465721": {
     "id": "2112712307331465721",
     "fecha": "2026-10-21T01:07:21.000Z",
@@ -151610,38 +149787,6 @@
       "retweet_count": 0
     },
     "url": "https://x.com/i/web/status/2112680965814342106",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2112675833831629280": {
-    "id": "2112675833831629280",
-    "fecha": "2026-10-20T22:42:25.000Z",
-    "autor_id": "1293273436169674755",
-    "autor_username": "LaLigaLondon",
-    "autor_nombre": "La Liga London",
-    "texto": "I really miss Raúl Albiol. Villarreal have not replaced his defensive quality, or his leadership at the back, since he left.\n\nThe current back line is so fragile, both in ability, and mentally. So quick to collapse under any sort of pressure. https://t.co/azBaQHq7HH https://t.co/n6Uyq7OMSz",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2112675833831629280",
-    "responde_a": null,
-    "cita_a": "2112657665507693029",
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 763,
-      "like_count": 21,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2112675833831629280",
     "procedencias": [
       "texto"
     ],
@@ -193530,37 +191675,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2114009843539620190": {
-    "id": "2114009843539620190",
-    "fecha": "2026-10-24T15:03:17.000Z",
-    "autor_id": "1172370398123479042",
-    "autor_username": "uFbI6lJNREWoOE7",
-    "autor_nombre": "권세창",
-    "texto": "@_woodward1 Iker Casillas\nPepe\nSergio Ramos\nRaul Albiol\nXabi Alonso\nKarim Benzema\nKaka\nLassana Diarra\nEsteban Granero\nRaul Gonzalez\nMarcelo",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113999243359011268",
-    "responde_a": "2113999243359011268",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 16,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2114009843539620190",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2114009717374636251": {
     "id": "2114009717374636251",
     "fecha": "2026-10-24T15:02:47.000Z",
@@ -195639,37 +193753,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2114000715098333393": {
-    "id": "2114000715098333393",
-    "fecha": "2026-10-24T14:27:01.000Z",
-    "autor_id": "1094330094628278273",
-    "autor_username": "MigueRuiZ",
-    "autor_nombre": "MigueRuiZ",
-    "texto": "Jajaja… No puede decir eso un tipo que dirigió a Pepe, Ramos, Arbeloa, Albiol y se benefició por simulaciones de Cristiano Ronaldo.\nÉl olvida que estuvo al frente del Chelsea de Abramovich y solo basta googlear para saber qué había detrás\n\nEl circo de Mou en su función principal https://t.co/6TcHih94RE",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2114000715098333393",
-    "responde_a": null,
-    "cita_a": "2113905040842981842",
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 50,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2114000715098333393",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2114000687331754118": {
     "id": "2114000687331754118",
     "fecha": "2026-10-24T14:26:54.000Z",
@@ -195913,38 +193996,6 @@
       "retweet_count": 428
     },
     "url": "https://x.com/i/web/status/2114000309068374159",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2114000277216842085": {
-    "id": "2114000277216842085",
-    "fecha": "2026-10-24T14:25:16.000Z",
-    "autor_id": "1697357485227536384",
-    "autor_username": "lukito1305",
-    "autor_nombre": "Onur",
-    "texto": "@demarkesports Raul Albiol",
-    "idioma_x": "cy",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "cy"
-    },
-    "conversation_id": "2113978820227129442",
-    "responde_a": "2113978820227129442",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 15,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2114000277216842085",
     "procedencias": [
       "texto"
     ],
@@ -201122,38 +199173,6 @@
       "retweet_count": 428
     },
     "url": "https://x.com/i/web/status/2113980112601285087",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113980027209449864": {
-    "id": "2113980027209449864",
-    "fecha": "2026-10-24T13:04:48.000Z",
-    "autor_id": "1494361361912061958",
-    "autor_username": "yakuphanaliogl",
-    "autor_nombre": "yakuphan",
-    "texto": "@demarkesports Raul Albiol",
-    "idioma_x": "cy",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "cy"
-    },
-    "conversation_id": "2113978820227129442",
-    "responde_a": "2113978820227129442",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 181,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113980027209449864",
     "procedencias": [
       "texto"
     ],
@@ -243696,37 +241715,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113729435597771117": {
-    "id": "2113729435597771117",
-    "fecha": "2026-10-23T20:29:03.000Z",
-    "autor_id": "1720665183188922368",
-    "autor_username": "grok",
-    "autor_nombre": "Grok",
-    "texto": "Real Madrid 2-3 AC Milan\nUCL Group C, 21 Oct 2009, Bernabéu\n\nGoals: Raúl 19, Drenthe 76; Pirlo 62, Pato 66, 88\n\nReal Madrid: Casillas; Ramos, Pepe, Albiol, Marcelo; L. Diarra, Xabi Alonso, Kaká, Granero (Drenthe 66); Benzema, Raúl\nManager: Pellegrini\n\nAC Milan: Dida; Oddo, Nesta, Thiago Silva, Zambrotta; Ambrosini, Pirlo, Seedorf; Pato, Inzaghi (Borriello 60), Ronaldinho (Flamini 90+1)\nManager: Leonardo\n\nStats: Poss 53-47, Shots 27-11 (on target 10-4), Corners 13-3, Fouls 23-12, Saves 1-8",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113591098928972249",
-    "responde_a": "2113729195750953318",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 14,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113729435597771117",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113729411388453089": {
     "id": "2113729411388453089",
     "fecha": "2026-10-23T20:28:57.000Z",
@@ -249307,37 +247295,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113709635962040632": {
-    "id": "2113709635962040632",
-    "fecha": "2026-10-23T19:10:22.000Z",
-    "autor_id": "2355388221",
-    "autor_username": "ABRAHAMs_Seed7",
-    "autor_nombre": "OLUWATOSIN",
-    "texto": "@abosalaharena Raul Albiol\nSergio Ramos\nSergio Busquet\nJavi Martinez \nJuan Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 14,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113709635962040632",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113709562595283386": {
     "id": "2113709562595283386",
     "fecha": "2026-10-23T19:10:05.000Z",
@@ -250450,37 +248407,6 @@
       "retweet_count": 390
     },
     "url": "https://x.com/i/web/status/2113704802513289604",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113704390188052621": {
-    "id": "2113704390188052621",
-    "fecha": "2026-10-23T18:49:32.000Z",
-    "autor_id": "1923658818505920512",
-    "autor_username": "boisjoli80",
-    "autor_nombre": "Blue JACQUEY",
-    "texto": "@utdzora Sergio Ramos \nRaúl Albiol\nJuan Mata \nJavi Martinez",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113548561816400058",
-    "responde_a": "2113548561816400058",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 19,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113704390188052621",
     "procedencias": [
       "texto"
     ],
@@ -257710,37 +255636,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113672393298436161": {
-    "id": "2113672393298436161",
-    "fecha": "2026-10-23T16:42:23.000Z",
-    "autor_id": "1663321611188011010",
-    "autor_username": "ThomasSW1987",
-    "autor_nombre": "TOTOSW87",
-    "texto": "@abosalaharena Reina albiol sergio ramos",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 12,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113672393298436161",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113672264382378269": {
     "id": "2113672264382378269",
     "fecha": "2026-10-23T16:41:52.000Z",
@@ -259105,37 +257000,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113666900735713513": {
-    "id": "2113666900735713513",
-    "fecha": "2026-10-23T16:20:33.000Z",
-    "autor_id": "1018084265035292672",
-    "autor_username": "ELuchador535",
-    "autor_nombre": "José 'ElLuchador535' Pulido🇮🇨🇪🇸",
-    "texto": "@abosalaharena Albiol, Ramos y Silva",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 27,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113666900735713513",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113666853771845914": {
     "id": "2113666853771845914",
     "fecha": "2026-10-23T16:20:22.000Z",
@@ -259348,38 +257212,6 @@
       "retweet_count": 342
     },
     "url": "https://x.com/i/web/status/2113665816239497408",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113665580427559153": {
-    "id": "2113665580427559153",
-    "fecha": "2026-10-23T16:15:19.000Z",
-    "autor_id": "1345384320349974532",
-    "autor_username": "Picaasso23",
-    "autor_nombre": "Picasso",
-    "texto": "@743Dharper And us madrid fans pre 3 peat champions league 😭when we had raul albiol as a cb and ramos as an rb😭",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2113268303326073016",
-    "responde_a": "2113268303326073016",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 41,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113665580427559153",
     "procedencias": [
       "texto"
     ],
@@ -266112,37 +263944,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113634806286389305": {
-    "id": "2113634806286389305",
-    "fecha": "2026-10-23T14:13:01.000Z",
-    "autor_id": "1962925250439442432",
-    "autor_username": "jacktifatoro",
-    "autor_nombre": "ILKHAN ENJOYER",
-    "texto": "@abosalaharena Javi Martinez, Sergio Ramos, Raul Albiol y Juan Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 57,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113634806286389305",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113634593706283302": {
     "id": "2113634593706283302",
     "fecha": "2026-10-23T14:12:11.000Z",
@@ -267600,38 +265401,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113628450628190408": {
-    "id": "2113628450628190408",
-    "fecha": "2026-10-23T13:47:46.000Z",
-    "autor_id": "2066826186500759552",
-    "autor_username": "Cruyffideology",
-    "autor_nombre": "Aayush",
-    "texto": "@LoudLifeTayo @_offside18 There were other bench players too but these were famous one I do think Pepe Reina as 3 keeper Raul Albiol,Jesus Navas,Santi Cazorla,Juan Mata,Javi Martinez,Alvaro Negredo",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2113352942002553013",
-    "responde_a": "2113621219237130683",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 24,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113628450628190408",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113628394034188365": {
     "id": "2113628394034188365",
     "fecha": "2026-10-23T13:47:33.000Z",
@@ -267751,37 +265520,6 @@
       "retweet_count": 1773
     },
     "url": "https://x.com/i/web/status/2113627808140509411",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113627746953998381": {
-    "id": "2113627746953998381",
-    "fecha": "2026-10-23T13:44:58.000Z",
-    "autor_id": "1728420448994795520",
-    "autor_username": "RezaWahyud14236",
-    "autor_nombre": "RG",
-    "texto": "@abosalaharena Albiol, ramos, mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 13,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113627746953998381",
     "procedencias": [
       "texto"
     ],
@@ -274112,37 +271850,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113599987359850651": {
-    "id": "2113599987359850651",
-    "fecha": "2026-10-23T11:54:40.000Z",
-    "autor_id": "1360548142333243393",
-    "autor_username": "padsh30",
-    "autor_nombre": "Mahmud",
-    "texto": "@GoldenZambak Albiol Ramos Mata",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113517049368748456",
-    "responde_a": "2113517049368748456",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 17,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113599987359850651",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113599979386192170": {
     "id": "2113599979386192170",
     "fecha": "2026-10-23T11:54:38.000Z",
@@ -275657,38 +273364,6 @@
       "retweet_count": 51
     },
     "url": "https://x.com/i/web/status/2113594014679421263",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113594006928338979": {
-    "id": "2113594006928338979",
-    "fecha": "2026-10-23T11:30:54.000Z",
-    "autor_id": "2052643049080049667",
-    "autor_username": "EmemLeohSilas",
-    "autor_nombre": "Emem Silas",
-    "texto": "@abosalaharena @pabloaimar86 Raul albiol still plays.. Pisa sporting fc",
-    "idioma_x": "en",
-    "idioma": {
-      "codigo": "otro",
-      "metodo": "x",
-      "confianza": "baja",
-      "idioma_x": "en"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113401316974461381",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 641,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113594006928338979",
     "procedencias": [
       "texto"
     ],
@@ -278143,37 +275818,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113585784833900828": {
-    "id": "2113585784833900828",
-    "fecha": "2026-10-23T10:58:14.000Z",
-    "autor_id": "1644424744739958784",
-    "autor_username": "Informativo_Fc",
-    "autor_nombre": "Informativo FC",
-    "texto": "@abosalaharena Son 4: Mata, Ramos, Albiol y Javi Martínez",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 81,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113585784833900828",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113585645000237182": {
     "id": "2113585645000237182",
     "fecha": "2026-10-23T10:57:40.000Z",
@@ -280345,37 +277989,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113578342192386266": {
-    "id": "2113578342192386266",
-    "fecha": "2026-10-23T10:28:39.000Z",
-    "autor_id": "1939213784",
-    "autor_username": "dart10n",
-    "autor_nombre": "Raúl F.",
-    "texto": "@abosalaharena Hay 4...\n\nRamos en activo sin equipo\nAlbiol en activo sin equipo\nMata en activo sin equipo\nSilva jugando en Hong Kong",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113351935151804852",
-    "responde_a": "2113351935151804852",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 117,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113578342192386266",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113578289180582073": {
     "id": "2113578289180582073",
     "fecha": "2026-10-23T10:28:27.000Z",
@@ -281585,37 +279198,6 @@
     ],
     "relevancia": "por_revisar"
   },
-  "2113572520729448488": {
-    "id": "2113572520729448488",
-    "fecha": "2026-10-23T10:05:31.000Z",
-    "autor_id": "815743177663582209",
-    "autor_username": "Bros_YKB",
-    "autor_nombre": "𝓝𝓮𝔁𝓽 𝓸𝓯 𝓚𝓲𝓷 👽",
-    "texto": "@utdzora Sergio Ramos, Raúl Albiol, Juan Mata et Javi Martínez.",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113548561816400058",
-    "responde_a": "2113548561816400058",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 26,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113572520729448488",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
   "2113572261655376095": {
     "id": "2113572261655376095",
     "fecha": "2026-10-23T10:04:30.000Z",
@@ -281642,37 +279224,6 @@
       "retweet_count": 1773
     },
     "url": "https://x.com/i/web/status/2113572261655376095",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113572177412800964": {
-    "id": "2113572177412800964",
-    "fecha": "2026-10-23T10:04:10.000Z",
-    "autor_id": "1795156102117457920",
-    "autor_username": "bebewontmiss",
-    "autor_nombre": "Bebe ❤️",
-    "texto": "@utdzora • Sergio Ramos (defender)\n• Raúl Albiol (defender)\n• Juan Mata (midfielder)",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113548561816400058",
-    "responde_a": "2113548561816400058",
-    "cita_a": null,
-    "republica_a": null,
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 19,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-    },
-    "url": "https://x.com/i/web/status/2113572177412800964",
     "procedencias": [
       "texto"
     ],
@@ -286789,37 +284340,6 @@
       "retweet_count": 1773
     },
     "url": "https://x.com/i/web/status/2113544197651198241",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113544185408078263": {
-    "id": "2113544185408078263",
-    "fecha": "2026-10-23T08:12:56.000Z",
-    "autor_id": "2113296480832249856",
-    "autor_username": "hooriebm",
-    "autor_nombre": "حور",
-    "texto": "RT @tetricus57: @abosalaharena Teoricamente Albiol, Ramos y Mata. Pero ninguno tiene equipo, en este plan podrían estar en activo Pirri o R…",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "lexico",
-      "confianza": "media"
-    },
-    "conversation_id": "2113544185408078263",
-    "responde_a": null,
-    "cita_a": null,
-    "republica_a": "2113377903303901598",
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 0,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 1
-    },
-    "url": "https://x.com/i/web/status/2113544185408078263",
     "procedencias": [
       "texto"
     ],
@@ -338900,37 +336420,6 @@
       "retweet_count": 15
     },
     "url": "https://x.com/i/web/status/2113005897299706040",
-    "procedencias": [
-      "texto"
-    ],
-    "relevancia": "por_revisar"
-  },
-  "2113005874004267211": {
-    "id": "2113005874004267211",
-    "fecha": "2026-10-21T20:33:52.000Z",
-    "autor_id": "1764067730116710400",
-    "autor_username": "jicimoon",
-    "autor_nombre": "zuiz",
-    "texto": "RT @realmadrid: REAL MADRID: Dudek, Ramos, Albiol, Garay, Drenthe, Lass, Diarra, Di Maria, Granero, Van der Vaart & Benzema. #realmadrid vs…",
-    "idioma_x": "es",
-    "idioma": {
-      "codigo": "es",
-      "metodo": "x",
-      "confianza": "baja"
-    },
-    "conversation_id": "2113005874004267211",
-    "responde_a": null,
-    "cita_a": null,
-    "republica_a": "20594227358",
-    "metricas": {
-      "bookmark_count": 0,
-      "impression_count": 0,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 599
-    },
-    "url": "https://x.com/i/web/status/2113005874004267211",
     "procedencias": [
       "texto"
     ],
