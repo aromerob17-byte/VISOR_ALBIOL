@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - '.github/workflows/depurar-futbol.yml'
+      - 'tests/futbol.test.js'
+      - 'src/depurar_futbol.js'
   workflow_dispatch:
 permissions:
   contents: write
