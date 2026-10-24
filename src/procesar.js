@@ -96,7 +96,7 @@ for(const l of idiomas){
 }
 const metricas=serialize(global);
 const resumen={
- version:2,inicio:'2026-10-21',actualizado_en:estado.ultima_ejecucion||null,
+ version:2,inicio:'2026-10-21',actualizado_en:[estado.ultima_ejecucion,estado.ultimo_refresco_albiol?.ejecutado_en].filter(Boolean).sort().at(-1)||null,
  ...metricas,total_posts:metricas.posts,total_autores:metricas.autores,
  publicaciones_albiol:metricas.propios,impresiones_disponibles_en:metricas.con_impresiones,
  exclusiones_fuera_de_ambito:idsExcluidos.size,
