@@ -1,0 +1,45 @@
+name: Refrescar TOP 10 de Albiol (gasto acotado)
+on:
+  push:
+    paths:
+      - '.github/workflows/refrescar-albiol.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: visor-albiol-refresco-propio
+  cancel-in-progress: false
+jobs:
+  refrescar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Una página de publicaciones propias y sus métricas antiguas
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: node src/refrescar_albiol.js
+      - name: Verificar integridad
+        run: npm test
+      - name: Reconstruir el top 10 sin nuevas consultas
+        run: npm run process
+      - name: Guardar solo los nuevos datos y métricas
+        run: |
+          git config user.name 'Visor Albiol Bot'
+          git config user.email 'actions@github.com'
+          git add -A -- data/posts data/metrics data/estado.json data/public/resumen.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualizar publicaciones propias de Albiol y su top 10'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Republicar el visor
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicar.yml --ref main
