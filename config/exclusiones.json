@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "criterio": "Exclusiones verificadas manualmente: referencias al futbolista Raúl Albiol, ajenas al alcalde Xavier García Albiol.",
+  "version": 2,
+  "criterio": "Excluir íntegramente de la base activa y de las estadísticas las referencias al futbolista Raúl Albiol, manteniendo únicamente conversación política sobre Xavier García Albiol.",
   "registros": [
     {
       "id": "2112675833831629280",
@@ -37,6 +37,479 @@
       "motivo": "Raúl Albiol en respuesta a cuenta deportiva",
       "estado": "fuera_de_ambito",
       "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113188583565562045",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113311567995338841",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113426686259667180",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2112743623167295711",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2112996472849367113",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113041152714887256",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113208343758340227",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113212973820903826",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113227869858017782",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113238841263841627",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113273415578652827",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113374423591895044",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113377899327705373",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113391547576127862",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113396031752683588",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113398438637523351",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113398790539354331",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113406879271624867",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113431981552029754",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113450578533630385",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113482551306383383",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113483022636839327",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113516218955305376",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113572177412800964",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113572520729448488",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113594006928338979",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113628450628190408",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113634806286389305",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113665580427559153",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113704390188052621",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113709635962040632",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2114009843539620190",
+      "motivo": "Mención explícita al futbolista Raúl Albiol",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113005874004267211",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113093125178802501",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113377903303901598",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113390017015890422",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113380899861475778",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113445261066301712",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113381411583611321",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113470476043645430",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113517049368748456",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113544185408078263",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113599987359850651",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113343704551555432",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113376219404320860",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113380754671432144",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113381291705897135",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113386973872181576",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113394666976776245",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113395954300973490",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113399247353647190",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113402591199613422",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113405057295339727",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113409176609407059",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113418808144842974",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113420515532513700",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113430058320683237",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113440722183770265",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113446428932755869",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113450860818653681",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113485723525599358",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113487621083042003",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113489498952847628",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113500675426373690",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113525350470717525",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113550638105907563",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113555835674612083",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113578342192386266",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113585784833900828",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113627746953998381",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113666900735713513",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113672393298436161",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113729435597771117",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2114000715098333393",
+      "motivo": "Referencia inequívoca a Raúl Albiol en conversación futbolística",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
     }
+  ],
+  "conservados_politicos": [
+    "2112695681181794755",
+    "2112850422562017622",
+    "2112850723406848140",
+    "2112907846916452756",
+    "2112910709046513970",
+    "2112915642785353862",
+    "2112924964470792632",
+    "2112925186333000122",
+    "2112925446723801456",
+    "2112926964851843130",
+    "2112927334051291342",
+    "2112930345498619917",
+    "2112932530672238918",
+    "2112951911729058135",
+    "2112957527545532869",
+    "2112962634135842870",
+    "2112974982795915309",
+    "2112998479396007983",
+    "2112999315732099150",
+    "2113010965587619889",
+    "2113203872797741115",
+    "2113212011500990881",
+    "2113263137831178285",
+    "2113295590268326235",
+    "2113524357389484069",
+    "2113676133354922302",
+    "2113988885743018082"
   ]
 }
