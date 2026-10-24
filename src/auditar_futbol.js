@@ -6,6 +6,7 @@ import {clasificarFutbol} from './clasificar_futbol.js';
 // Los nuevos sospechosos solo se señalan para revisión; NO se excluyen solos.
 const cfg=leerJSON('config/exclusiones.json',{registros:[]});
 const excluded=new Set((cfg.registros||[]).map(x=>String(x.id)));
+const politicalReviewed=new Set((cfg.conservados_politicos||[]).map(String));
 const posts=todosLosPosts();
 const byId=new Map(posts.map(p=>[String(p.id),p]));
 const categories=['excluido_confirmado','alta_probabilidad','contexto_futbol','mixto_revisar'];
@@ -14,6 +15,8 @@ const candidates=[];
 const presentExcluded=[];
 for(const p of posts){
  const id=String(p?.id||'');
+ // Estos 27 registros fueron revisados personalmente y son conversación política.
+ if(politicalReviewed.has(id))continue;
  if(excluded.has(id))presentExcluded.push(id);
  const result=clasificarFutbol(p,excluded);
  if(!result)continue;
