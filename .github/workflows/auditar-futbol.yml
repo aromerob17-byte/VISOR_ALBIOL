@@ -1,0 +1,43 @@
+name: Auditar homónimos futbolísticos (sin X API)
+on:
+  push:
+    paths:
+      - '.github/workflows/auditar-futbol.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: visor-albiol-auditoria
+  cancel-in-progress: false
+jobs:
+  auditoria:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Obtener histórico
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pruebas de clasificación y del visor
+        run: npm test
+      - name: Auditar todos los registros guardados
+        run: npm run audit:futbol
+      - name: Recalcular estadísticas sin los seis homónimos confirmados
+        run: npm run process
+      - name: Guardar auditoría y nuevo resumen
+        run: |
+          git config user.name 'Visor Albiol Bot'
+          git config user.email 'actions@github.com'
+          git add data/auditoria_futbol data/public/resumen.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Auditar homónimos futbolísticos y excluir seis falsos positivos'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Publicar visor depurado
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicar.yml --ref main
