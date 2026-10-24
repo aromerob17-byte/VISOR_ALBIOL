@@ -1,7 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { detectarIdioma } from './idioma.js';
+import { clasificarFutbol } from './clasificar_futbol.js';
 const ROOT = path.resolve('data');
+const exclusiones=JSON.parse(fs.readFileSync('config/exclusiones.json','utf8'));
+const idsFutbol=new Set((exclusiones.registros||[]).map(x=>String(x.id)));
+const idsPoliticos=new Set((exclusiones.conservados_politicos||[]).map(String));
 export function leerJSON(archivo,fallback) {
   try {return JSON.parse(fs.readFileSync(archivo,'utf8'));}
   catch(e) {if(e.code==='ENOENT')return fallback;throw e;}
@@ -40,6 +44,15 @@ export function guardarLote(posts,procedencia,usuarios={},momento=new Date().toI
   let nuevos=0;
   for(const p of posts) {
     if(!p.id||!p.created_at)continue;
+    const id=String(p.id);
+    // No reintroducir nunca falsos positivos ya revisados. Los 27 casos
+    // políticos prevalecen frente a coincidencias léxicas sobre deportes.
+    if(idsFutbol.has(id))continue;
+    if(!idsPoliticos.has(id)){
+      const texto=p.note_tweet?.text||p.text||'';
+      const resultado=clasificarFutbol({id,texto});
+      if(resultado?.categoria==='alta_probabilidad')continue;
+    }
     const mes=String(p.created_at).slice(0,7);
     if(!/^\d{4}-\d{2}$/.test(mes))continue;
     if(!meses.has(mes))meses.set(mes,leerJSON(path.join(ROOT,'posts',mes+'.json'),{}));
