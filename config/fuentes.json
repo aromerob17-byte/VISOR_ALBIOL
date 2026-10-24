@@ -16,13 +16,15 @@
     }
   ],
   "limites": {
-    "max_peticiones_por_ejecucion": 10,
-    "max_posts_por_ejecucion": 500,
-    "max_paginas_por_fuente": 2,
-    "max_hilos_albiol_por_ejecucion": 3,
-    "dias_seguimiento_hilos": 3,
-    "max_citas_por_hilo": 100
+    "max_peticiones_por_ejecucion": 600,
+    "max_posts_por_ejecucion": 50000,
+    "max_paginas_por_fuente": 600,
+    "max_hilos_albiol_por_ejecucion": 1000,
+    "dias_seguimiento_hilos": 30,
+    "max_citas_por_hilo": 100,
+    "max_semillas_terceros_por_ejecucion": 150
   },
-  "incluir_republicaciones_en_busquedas": false,
-  "recopilacion_automatica": false
+  "incluir_republicaciones_en_busquedas": true,
+  "recopilacion_automatica": true,
+  "presupuesto_total_usd": 500
 }
