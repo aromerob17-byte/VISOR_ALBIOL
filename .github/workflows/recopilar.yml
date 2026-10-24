@@ -10,6 +10,7 @@ on:
       - '.github/workflows/recopilar.yml'
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: visor-albiol-recopilacion
   cancel-in-progress: false
@@ -26,7 +27,7 @@ jobs:
           node-version: '22'
       - name: Validación técnica sin gasto
         run: npm test
-      - name: Recopilar X con límite total de presupuesto
+      - name: Recopilar X con saldo disponible (sin compras ni recargas)
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           MAX_REQUESTS: '600'
@@ -42,7 +43,12 @@ jobs:
           git config user.email 'actions@github.com'
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m 'Actualizar conversación pública Albiol y presupuesto'
+            git commit -m 'Actualizar conversación pública Albiol y estado'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      - name: Publicar siempre el histórico actualizado
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicar.yml --ref main
