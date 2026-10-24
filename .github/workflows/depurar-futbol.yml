@@ -1,0 +1,45 @@
+name: Depurar falsos positivos de fútbol (sin API de X)
+on:
+  push:
+    paths:
+      - '.github/workflows/depurar-futbol.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: visor-albiol-depuracion-futbol
+  cancel-in-progress: false
+jobs:
+  depurar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Obtener el repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Eliminar del histórico activo las 80 referencias futbolísticas
+        run: node src/depurar_futbol.js
+      - name: Pruebas del visor
+        run: npm test
+      - name: Regenerar estadísticas depuradas
+        run: npm run process
+      - name: Rehacer auditoría sin guardar textos de fútbol
+        run: npm run audit:futbol
+      - name: Confirmar depuración en el repositorio
+        run: |
+          git config user.name 'Visor Albiol Bot'
+          git config user.email 'actions@github.com'
+          git add -A -- data/posts data/metrics data/auditoria_futbol data/public/resumen.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Eliminar 80 falsos positivos futbolísticos del histórico activo'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Desplegar el visor depurado
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicar.yml --ref main
