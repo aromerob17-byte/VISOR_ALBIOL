@@ -11,6 +11,7 @@
     "plan": "node src/recoger.js --plan",
     "collect": "node src/recoger.js --execute",
     "process": "node src/procesar.js",
-    "site": "node src/publicar.js"
+    "site": "node src/publicar.js",
+    "audit:futbol": "node src/auditar_futbol.js"
   }
 }
