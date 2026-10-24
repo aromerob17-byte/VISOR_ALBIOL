@@ -2,22 +2,22 @@
   "version": 1,
   "por_fuente": {
     "texto": {
-      "ultima_consulta": "2026-10-24T16:08:06.551Z",
+      "ultima_consulta": "2026-10-24T16:30:38.162Z",
       "completa": false,
-      "ultimo_lote": 100,
+      "ultimo_lote": 98,
       "paginas": 2,
       "until_id": "2112585576499057037",
       "max_existing_id": "2113564592823525732",
       "token": null,
-      "peticiones": 45,
-      "registros_leidos": 4496,
+      "peticiones": 106,
+      "registros_leidos": 10561,
       "consultado_en": "2026-10-23T09:58:53.281Z",
       "barrido_completo": true,
       "terminado_en": "2026-10-23T09:58:58.544Z",
       "pendiente": {
         "inicio": "2026-10-23T09:48:58.544Z",
         "fin": "2026-10-24T16:07:33.434Z",
-        "token": "b26v89c19zqg8o3juzlwtp2vhebr7r8er0ne3rwz5mb99"
+        "token": "b26v89c19zqg8o3juzlwef5zknh6m160muycc6tuivekd"
       }
     },
     "mencion_directa": {
@@ -509,9 +509,9 @@
     },
     "_barrido": {}
   },
-  "ultima_ejecucion": "2026-10-24T16:07:53.238Z",
+  "ultima_ejecucion": "2026-10-24T16:30:19.695Z",
   "avisos": [
-    "texto: HTTP 402 {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}",
+    "texto: HTTP 403 {\"detail\":\"Your monthly spend cap has been reached.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"https://api.x.com/2/problems/spend-cap-reached\"}",
     "Pendiente de paginar: texto"
   ],
   "ultima_estadistica": {
@@ -581,26 +581,25 @@
     "omitidas": [],
     "parada": null
   },
-  "turno_semillas": 1,
-  "saldo_x_ultimo_usd": 19.1,
+  "turno_semillas": 2,
+  "saldo_x_ultimo_usd": 99.62,
   "presupuesto_visor": {
     "moneda": "USD",
-    "limite_total": 500,
-    "gasto_estimado": 57.285,
-    "lecturas": 3897,
-    "usuarios": 3780
+    "gasto_estimado": 145.68,
+    "lecturas": 9962,
+    "usuarios": 9587
   },
   "ultimo_control_recogida": {
-    "iniciado_en": "2026-10-24T16:07:53.238Z",
-    "peticiones": 39,
-    "leidos": 3897,
-    "nuevos": 3764,
+    "iniciado_en": "2026-10-24T16:30:19.695Z",
+    "peticiones": 61,
+    "leidos": 6065,
+    "nuevos": 1597,
     "fuentes_completadas": 0,
     "avisos": [
-      "texto: HTTP 402 {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}",
+      "texto: HTTP 403 {\"detail\":\"Your monthly spend cap has been reached.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"https://api.x.com/2/problems/spend-cap-reached\"}",
       "Pendiente de paginar: texto"
     ],
-    "parada": "X API HTTP 402",
-    "finalizado_en": "2026-10-24T16:08:06.600Z"
+    "parada": "X API HTTP 403",
+    "finalizado_en": "2026-10-24T16:30:38.206Z"
   }
 }
