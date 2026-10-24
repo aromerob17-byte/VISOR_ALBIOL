@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/refrescar-albiol.yml'
+      - 'src/refrescar_albiol.js'
   workflow_dispatch:
 permissions:
   contents: write
@@ -21,7 +22,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Una página de publicaciones propias y sus métricas antiguas
+      - name: Publicaciones propias de Albiol y sus métricas antiguas
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: node src/refrescar_albiol.js
