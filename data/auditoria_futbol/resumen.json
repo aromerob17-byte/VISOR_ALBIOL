@@ -1,0 +1,425 @@
+{
+  "version": 1,
+  "analizado_en": "2026-10-24T16:50:27.326Z",
+  "objeto": "Detectar referencias al futbolista Raúl Albiol en la base del Visor sobre Xavier García Albiol",
+  "alcance": {
+    "registros_analizados": 11356,
+    "publicaciones_sin_republicacion": 4166,
+    "republicaciones": 7190
+  },
+  "exclusiones": {
+    "configuradas": 6,
+    "encontradas": 6,
+    "no_encontradas": []
+  },
+  "categorias": {
+    "excluido_confirmado": {
+      "total": 6,
+      "originales": 6,
+      "republicaciones": 0
+    },
+    "alta_probabilidad": {
+      "total": 32,
+      "originales": 32,
+      "republicaciones": 0
+    },
+    "contexto_futbol": {
+      "total": 68,
+      "originales": 49,
+      "republicaciones": 19
+    },
+    "mixto_revisar": {
+      "total": 1,
+      "originales": 1,
+      "republicaciones": 0
+    }
+  },
+  "total_candidatos": 107,
+  "nuevos_sin_excluir": 101,
+  "nuevos_originales_sin_excluir": 82,
+  "muestra_por_categoria": {
+    "excluido_confirmado": [
+      {
+        "id": "2112675833831629280",
+        "fecha": "2026-10-20T22:42:25.000Z",
+        "autor": "LaLigaLondon",
+        "idioma": "otro",
+        "categoria": "excluido_confirmado",
+        "indicadores": [
+          "Nombre Raúl Albiol",
+          "Villarreal",
+          "Defensa central"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 22,
+        "url": "https://x.com/i/web/status/2112675833831629280",
+        "texto": "I really miss Raúl Albiol. Villarreal have not replaced his defensive quality, or his leadership at the back, since he left.\n\nThe current back line is so fragile, both in ability, and mentally. So quick to collapse under any sort of pressure. https://t.co/azBaQHq7HH https://t.co/n6Uyq7OMSz"
+      },
+      {
+        "id": "2112784403013439835",
+        "fecha": "2026-10-21T05:53:49.000Z",
+        "autor": "nothingsnewtbh",
+        "idioma": "otro",
+        "categoria": "excluido_confirmado",
+        "indicadores": [
+          "Nombre Raúl Albiol",
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 16,
+        "url": "https://x.com/i/web/status/2112784403013439835",
+        "texto": "@mnacy_ 1 and 2 are from raul albiol, 3 is from jesus navas and 4 is from pepe reina!"
+      },
+      {
+        "id": "2113368309999763550",
+        "fecha": "2026-10-22T20:34:04.000Z",
+        "autor": "yosef_alibrahem",
+        "idioma": "indeterminado",
+        "categoria": "excluido_confirmado",
+        "indicadores": [
+          "Nombre Raúl Albiol",
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 0,
+        "url": "https://x.com/i/web/status/2113368309999763550",
+        "texto": "@abosalaharena Raul Albiol - javi Martinez - Mata"
+      },
+      {
+        "id": "2113378793234604411",
+        "fecha": "2026-10-22T21:15:43.000Z",
+        "autor": "yivisonCrisis",
+        "idioma": "otro",
+        "categoria": "excluido_confirmado",
+        "indicadores": [
+          "Nombre Raúl Albiol",
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 0,
+        "url": "https://x.com/i/web/status/2113378793234604411",
+        "texto": "@abosalaharena Ramos \nRaul Albiol \nDavid Silva he signed a contract recently"
+      },
+      {
+        "id": "2113980027209449864",
+        "fecha": "2026-10-24T13:04:48.000Z",
+        "autor": "yakuphanaliogl",
+        "idioma": "otro",
+        "categoria": "excluido_confirmado",
+        "indicadores": [
+          "Nombre Raúl Albiol",
+          "Cuenta deportiva"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 0,
+        "url": "https://x.com/i/web/status/2113980027209449864",
+        "texto": "@demarkesports Raul Albiol"
+      },
+      {
+        "id": "2114000277216842085",
+        "fecha": "2026-10-24T14:25:16.000Z",
+        "autor": "lukito1305",
+        "idioma": "otro",
+        "categoria": "excluido_confirmado",
+        "indicadores": [
+          "Nombre Raúl Albiol",
+          "Cuenta deportiva"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 0,
+        "url": "https://x.com/i/web/status/2114000277216842085",
+        "texto": "@demarkesports Raul Albiol"
+      }
+    ],
+    "alta_probabilidad": [
+      {
+        "id": "2113188583565562045",
+        "fecha": "2026-10-22T08:39:54.000Z",
+        "autor": "grok",
+        "idioma": "otro",
+        "categoria": "alta_probabilidad",
+        "indicadores": [
+          "Nombre Raúl Albiol"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 1,
+        "url": "https://x.com/i/web/status/2113188583565562045",
+        "texto": "@KgapzSonopo @_UTDIMole @sabelostormz You're right. I mixed that one up. Correct lineup: Iker Casillas, Pepe, Raúl Albiol, Xabi Alonso, Kaká, Cristiano Ronaldo up top; Royston Drenthe, Gonzalo Higuaín, Raúl, Álvaro Arbeloa and Lassana Diarra below. No Benzema or Marcelo in this shot."
+      },
+      {
+        "id": "2113311567995338841",
+        "fecha": "2026-10-22T16:48:35.000Z",
+        "autor": "mukongowaboko",
+        "idioma": "otro",
+        "categoria": "alta_probabilidad",
+        "indicadores": [
+          "Nombre Raúl Albiol"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 1,
+        "url": "https://x.com/i/web/status/2113311567995338841",
+        "texto": "@_UTDIMole Dudek the goalkeeper, Raul Gonzalez, Raul Albiol, Lassana Diarra and Drenthe"
+      },
+      {
+        "id": "2113426686259667180",
+        "fecha": "2026-10-23T00:26:02.000Z",
+        "autor": "chambel_pedro",
+        "idioma": "es",
+        "categoria": "alta_probabilidad",
+        "indicadores": [
+          "Nombre Raúl Albiol",
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 1,
+        "url": "https://x.com/i/web/status/2113426686259667180",
+        "texto": "@abosalaharena Javi Martinez, Raul Albiol e Juan Mata"
+      },
+      {
+        "id": "2112743623167295711",
+        "fecha": "2026-10-21T03:11:47.000Z",
+        "autor": "bornfrompain2k1",
+        "idioma": "otro",
+        "categoria": "alta_probabilidad",
+        "indicadores": [
+          "Nombre Raúl Albiol",
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 0,
+        "url": "https://x.com/i/web/status/2112743623167295711",
+        "texto": "@Amerzaben1 Pepe reina(kaleci), raul albiol, koulibaly, ghoulam, callejon\nhysaj, hamsik, insigne, jorginho, mertens, marko rog"
+      },
+      {
+        "id": "2112996472849367113",
+        "fecha": "2026-10-21T19:56:31.000Z",
+        "autor": "thfcjoshx",
+        "idioma": "otro",
+        "categoria": "alta_probabilidad",
+        "indicadores": [
+          "Nombre Raúl Albiol"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 0,
+        "url": "https://x.com/i/web/status/2112996472849367113",
+        "texto": "@EAFCconcepts Raul Albiol still has his face scan from like FIFA 13 lol"
+      },
+      {
+        "id": "2113041152714887256",
+        "fecha": "2026-10-21T22:54:03.000Z",
+        "autor": "PrinceDeroy9",
+        "idioma": "otro",
+        "categoria": "alta_probabilidad",
+        "indicadores": [
+          "Nombre Raúl Albiol"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 0,
+        "url": "https://x.com/i/web/status/2113041152714887256",
+        "texto": "@AbuZeenat_ Õzil, Pepe, carvalho , Khedira , Alonso, Ronaldo,casilas, Raùl Albiol, Di Maria, Higuain , Marcelo"
+      },
+      {
+        "id": "2113208343758340227",
+        "fecha": "2026-10-22T09:58:25.000Z",
+        "autor": "shedyclipz",
+        "idioma": "otro",
+        "categoria": "alta_probabilidad",
+        "indicadores": [
+          "Nombre Raúl Albiol",
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 0,
+        "url": "https://x.com/i/web/status/2113208343758340227",
+        "texto": "@_UTDIMole Iker Casillas\nSergio Ramos\nRaúl Albiol\nAlvaro Arbeloa\nKaká"
+      },
+      {
+        "id": "2113212973820903826",
+        "fecha": "2026-10-22T10:16:49.000Z",
+        "autor": "utdtiki",
+        "idioma": "otro",
+        "categoria": "alta_probabilidad",
+        "indicadores": [
+          "Nombre Raúl Albiol"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 0,
+        "url": "https://x.com/i/web/status/2113212973820903826",
+        "texto": "@_UTDIMole Raúl Albiol\nAlvaro Arbeloa\nKaká"
+      }
+    ],
+    "contexto_futbol": [
+      {
+        "id": "2113005874004267211",
+        "fecha": "2026-10-21T20:33:52.000Z",
+        "autor": "jicimoon",
+        "idioma": "es",
+        "categoria": "contexto_futbol",
+        "indicadores": [
+          "Real Madrid",
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": true,
+        "interacciones": 599,
+        "url": "https://x.com/i/web/status/2113005874004267211",
+        "texto": "RT @realmadrid: REAL MADRID: Dudek, Ramos, Albiol, Garay, Drenthe, Lass, Diarra, Di Maria, Granero, Van der Vaart & Benzema. #realmadrid vs…"
+      },
+      {
+        "id": "2113093125178802501",
+        "fecha": "2026-10-22T02:20:35.000Z",
+        "autor": "Diyidigiusto",
+        "idioma": "mixto",
+        "categoria": "contexto_futbol",
+        "indicadores": [
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 147,
+        "url": "https://x.com/i/web/status/2113093125178802501",
+        "texto": "Calamaro pero es Vicente del Bosque diagramando a la España del 2010\n\nCambiemos a Marchena\nNo lo quiero a Negredo\nA Mata, David Silva o Güiza\nPalop en el banquillo, al lado de Albiol\nSeguro va Puyol\n\nNo lo llamo a Navarro\nTampoco a Soldado\nCazorla lo abandono, no a Llorente"
+      },
+      {
+        "id": "2112907846916452756",
+        "fecha": "2026-10-21T14:04:21.000Z",
+        "autor": "elmundoes",
+        "idioma": "mixto",
+        "categoria": "contexto_futbol",
+        "indicadores": [
+          "Defensa central"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 55,
+        "url": "https://x.com/i/web/status/2112907846916452756",
+        "texto": "Los defensores del bilingüismo se abalanzan contra Albiol por defender que \"el conocimiento del castellano está garantizado en Cataluña\" https://t.co/5pjW1ZjKtQ"
+      },
+      {
+        "id": "2113377903303901598",
+        "fecha": "2026-10-22T21:12:11.000Z",
+        "autor": "tetricus57",
+        "idioma": "es",
+        "categoria": "contexto_futbol",
+        "indicadores": [
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 50,
+        "url": "https://x.com/i/web/status/2113377903303901598",
+        "texto": "@abosalaharena Teoricamente Albiol, Ramos y Mata. Pero ninguno tiene equipo, en este plan podrían estar en activo Pirri o Rexach"
+      },
+      {
+        "id": "2112850723406848140",
+        "fecha": "2026-10-21T10:17:21.000Z",
+        "autor": "VMondelo",
+        "idioma": "mixto",
+        "categoria": "contexto_futbol",
+        "indicadores": [
+          "Defensa central"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 48,
+        "url": "https://x.com/i/web/status/2112850723406848140",
+        "texto": "Albiol rompe la línea argumental del PP respecto al uso del castellano en Cataluña en plena precampaña electoral. Y los  defensores del bilingüismo no se lo perdonan.👇\n\nLos defensores del bilingüismo se abalanzan contra Albiol tras contradecir al PP y defender que \"el conocimiento del castellano está garantizado en Cataluña\" https://t.co/N24BGTsJFQ"
+      },
+      {
+        "id": "2112930345498619917",
+        "fecha": "2026-10-21T15:33:45.000Z",
+        "autor": "VeuCat",
+        "idioma": "es",
+        "categoria": "contexto_futbol",
+        "indicadores": [
+          "Defensa central"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 48,
+        "url": "https://x.com/i/web/status/2112930345498619917",
+        "texto": "Si Albiol es quien tiene que defender el derecho a la educación bilingüe sin exclusión del castellano, vamos apañados https://t.co/8gdj3AusIy"
+      },
+      {
+        "id": "2113390017015890422",
+        "fecha": "2026-10-22T22:00:19.000Z",
+        "autor": "ARMANDOOSUNA9",
+        "idioma": "es",
+        "categoria": "contexto_futbol",
+        "indicadores": [
+          "Jugadores"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": false,
+        "interacciones": 10,
+        "url": "https://x.com/i/web/status/2113390017015890422",
+        "texto": "@abosalaharena Mata Albiol y ramos"
+      },
+      {
+        "id": "2112910709046513970",
+        "fecha": "2026-10-21T14:15:43.000Z",
+        "autor": "jornalistavitor",
+        "idioma": "mixto",
+        "categoria": "contexto_futbol",
+        "indicadores": [
+          "Defensa central"
+        ],
+        "ambiguo_con_alcalde": false,
+        "republicacion": true,
+        "interacciones": 9,
+        "url": "https://x.com/i/web/status/2112910709046513970",
+        "texto": "RT @elmundoes: Los defensores del bilingüismo se abalanzan contra Albiol por defender que \"el conocimiento del castellano está garantizado…"
+      }
+    ],
+    "mixto_revisar": [
+      {
+        "id": "2112695681181794755",
+        "fecha": "2026-10-21T00:01:17.000Z",
+        "autor": "alexwolfx2",
+        "idioma": "es",
+        "categoria": "mixto_revisar",
+        "indicadores": [
+          "Fichajes"
+        ],
+        "ambiguo_con_alcalde": true,
+        "republicacion": false,
+        "interacciones": 1,
+        "url": "https://x.com/i/web/status/2112695681181794755",
+        "texto": "@capTercio @Albiol_XG Albiol sería un buen fichaje para Vox...por qué lamentablemente Feijoo no quiere lo mismo..."
+      }
+    ]
+  },
+  "archivos": [
+    {
+      "archivo": "data/auditoria_futbol/candidatos_001.json",
+      "desde": 1,
+      "hasta": 100
+    },
+    {
+      "archivo": "data/auditoria_futbol/candidatos_002.json",
+      "desde": 101,
+      "hasta": 107
+    }
+  ],
+  "cautelas": [
+    "El análisis recorre todos los registros guardados, no todas las publicaciones existentes en X.",
+    "La clasificación es heurística; menciones futbolísticas sin apellido pueden no detectarse.",
+    "Solo se excluyen automáticamente de las estadísticas los seis IDs ya validados.",
+    "Una republicación se audita pero no forma parte del universo principal del visor.",
+    "Las categorías detectan candidatos a revisar y no constituyen una prueba definitiva de identidad."
+  ]
+}
