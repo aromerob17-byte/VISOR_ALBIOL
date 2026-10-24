@@ -25,6 +25,5 @@
     "max_semillas_terceros_por_ejecucion": 150
   },
   "incluir_republicaciones_en_busquedas": true,
-  "recopilacion_automatica": true,
-  "presupuesto_total_usd": 500
+  "recopilacion_automatica": true
 }
