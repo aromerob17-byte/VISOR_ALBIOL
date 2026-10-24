@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "criterio": "Exclusiones verificadas manualmente: referencias al futbolista Raúl Albiol, ajenas al alcalde Xavier García Albiol.",
+  "registros": [
+    {
+      "id": "2112675833831629280",
+      "motivo": "Referencia al defensa Raúl Albiol y al Villarreal",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2112784403013439835",
+      "motivo": "Mención a Raúl Albiol junto a Jesús Navas y Pepe Reina",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113368309999763550",
+      "motivo": "Lista de futbolistas: Raúl Albiol, Javi Martínez y Mata",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113378793234604411",
+      "motivo": "Lista de futbolistas: Ramos, Raúl Albiol y David Silva",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2113980027209449864",
+      "motivo": "Raúl Albiol en respuesta a cuenta deportiva",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    },
+    {
+      "id": "2114000277216842085",
+      "motivo": "Raúl Albiol en respuesta a cuenta deportiva",
+      "estado": "fuera_de_ambito",
+      "validacion": "2026-10-24"
+    }
+  ]
+}
