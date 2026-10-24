@@ -5,8 +5,11 @@ import {clasificarFutbol} from '../src/clasificar_futbol.js';
 
 const ex=JSON.parse(fs.readFileSync('config/exclusiones.json','utf8'));
 const ids=new Set(ex.registros.map(r=>r.id));
-test('Se excluyen los seis IDs confirmados, ninguno por apellido solamente',()=>{
- assert.equal(ids.size,6);
+const politicos=new Set(ex.conservados_politicos||[]);
+test('Se bloquean 80 registros futbolísticos y se protegen los 27 políticos',()=>{
+ assert.equal(ids.size,80);
+ assert.equal(politicos.size,27);
+ assert.ok([...politicos].every(id=>!ids.has(id)));
  const p={id:'2112675833831629280',texto:'I miss Raúl Albiol at Villarreal'};
  assert.equal(clasificarFutbol(p,ids).categoria,'excluido_confirmado');
  assert.equal(clasificarFutbol({id:'1',texto:'Xavier García Albiol habla de Badalona'},ids),null);
