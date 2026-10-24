@@ -3,7 +3,9 @@ import {todosLosPosts,leerJSON,escribirJSON} from './almacen.js';
 /* El mismo ID no cuenta dos veces. Las republicaciones se excluyen del universo
    de publicaciones propias; sus interacciones se reflejan en el original.
    Las métricas son las de la última observación, no la suma de snapshots. */
-const originales=todosLosPosts().filter(p=>p?.id && p.fecha && !p.republica_a);
+const exclusiones=leerJSON('config/exclusiones.json',{registros:[]});
+const idsExcluidos=new Set((exclusiones.registros||[]).map(x=>String(x.id)));
+const originales=todosLosPosts().filter(p=>p?.id && p.fecha && !p.republica_a && !idsExcluidos.has(String(p.id)));
 const estado=leerJSON('data/estado.json',{});
 const formatoDia=new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'});
 const num=v=>Number.isFinite(Number(v))?Math.max(0,Number(v)):0;
@@ -97,6 +99,7 @@ const resumen={
  version:2,inicio:'2026-10-21',actualizado_en:estado.ultima_ejecucion||null,
  ...metricas,total_posts:metricas.posts,total_autores:metricas.autores,
  publicaciones_albiol:metricas.propios,impresiones_disponibles_en:metricas.con_impresiones,
+ exclusiones_fuera_de_ambito:idsExcluidos.size,
  // Compatibilidad con el esqueleto anterior
  idiomas:metricas.idiomas,fuentes:fuenteCont,
  por_dia:temporal.map(d=>({...d,es:d.idiomas.es,ca:d.idiomas.ca})),
@@ -106,6 +109,7 @@ const resumen={
  avisos:estado.ultimo_barrido?.errores||[],estado:originales.length?'DATOS_DISPONIBLES':'SIN_DATOS',
  metodologia:{
     deduplicacion:'Por ID de publicación; se excluyen republicaciones del universo.',
+    fuera_de_ambito:'IDs validados de publicaciones sobre homónimos (como Raúl Albiol) excluidos de cifras, rankings y temas sin borrar la fuente original.',
     interacciones:'Me gusta + republicaciones + respuestas + citas, según último dato observado.',
     impresiones:'Suma de impresiones publicadas por X donde están disponibles; no son usuarios únicos.',
     temas:'Etiquetas multiclase por coincidencia de palabras; no son clasificación semántica ni sentimiento.',
