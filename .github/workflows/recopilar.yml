@@ -1,13 +1,6 @@
-name: Recopilar conversación Albiol — 06:00 Madrid
+name: Recopilar conversación Albiol — ejecución manual
 on:
-  schedule:
-    - cron: '0 6 * * *'
-      timezone: 'Europe/Madrid'
   workflow_dispatch:
-  # Arranque inicial al implantar esta programación. No se repite en cada cambio del código.
-  push:
-    paths:
-      - '.github/workflows/recopilar.yml'
 permissions:
   contents: write
   actions: write
