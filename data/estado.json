@@ -582,12 +582,12 @@
     "parada": null
   },
   "turno_semillas": 2,
-  "saldo_x_ultimo_usd": 99.62,
+  "saldo_x_ultimo_usd": 69.3,
   "presupuesto_visor": {
     "moneda": "USD",
-    "gasto_estimado": 145.68,
-    "lecturas": 9962,
-    "usuarios": 9587
+    "gasto_estimado": 145.8,
+    "lecturas": 9984,
+    "usuarios": 9588
   },
   "ultimo_control_recogida": {
     "iniciado_en": "2026-10-24T16:30:19.695Z",
@@ -601,5 +601,14 @@
     ],
     "parada": "X API HTTP 403",
     "finalizado_en": "2026-10-24T16:30:38.206Z"
+  },
+  "ultimo_refresco_albiol": {
+    "ejecutado_en": "2026-10-24T17:13:38.998Z",
+    "peticiones": 1,
+    "leidos": 22,
+    "nuevos": 13,
+    "publicaciones_propias_observadas": 22,
+    "antiguas_consultadas": 0,
+    "avisos": []
   }
 }
