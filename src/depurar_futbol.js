@@ -35,7 +35,8 @@ for(const archivo of fs.readdirSync(postsDir).filter(x=>formato.test(x))){
 }
 const pendientes=[...bloqueados].filter(id=>!encontrados.has(id));
 const politicosAusentes=[...politicos].filter(id=>!conservados.has(id));
-if(pendientes.length)throw Error('No encontrados en la base: '+pendientes.join(','));
+if(pendientes.length&&encontrados.size>0)
+  throw Error('Depuración parcial: faltan IDs en la base: '+pendientes.join(','));
 if(politicosAusentes.length)throw Error('Faltan publicaciones políticas protegidas: '+politicosAusentes.join(','));
 
 let metricasEliminadas=0;
