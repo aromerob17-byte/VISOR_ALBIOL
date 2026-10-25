@@ -1,0 +1,35 @@
+name: Exportar corpus CSV (sin X API)
+on:
+  push:
+    paths:
+      - '.github/workflows/exportar-corpus.yml'
+      - 'scripts/exportar_corpus_2026_10.mjs'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visor-albiol-exportacion-corpus
+  cancel-in-progress: false
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Exportar registros sin acceder a la API de X
+        run: node scripts/exportar_corpus_2026_10.mjs
+      - name: Guardar CSV y nota de procedencia
+        run: |
+          git config user.name 'Visor Albiol Bot'
+          git config user.email 'actions@github.com'
+          git add data/exportaciones/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publicar corpus CSV y candidatas lingüísticas sin clasificar'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
