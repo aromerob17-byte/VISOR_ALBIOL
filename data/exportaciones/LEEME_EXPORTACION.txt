@@ -1,0 +1,11 @@
+EXTRACCIÓN DOCUMENTAL SIN CONSULTAS A X NI ETIQUETAS INVENTADAS
+Fuente: data/posts/2026-10.json, repositorio VISOR_ALBIOL.
+Universo: publicaciones de octubre 2026 no marcadas como republicaciones, una por ID.
+CSV: UTF-8 BOM, separador punto y coma; los IDs de X deben importarse como texto.
+candidatas_lengua: filtro léxico amplio O vínculo documentado al hilo origen. NO equivale a la selección histórica de 533.
+La clasificación individual de las 533 no fue almacenada. Por ello las columnas de revisión están vacías.
+No interpretar las 533 publicaciones citadas en conversaciones anteriores como una muestra reproducible.
+Filtrar y revisar manualmente contenido/critica_al_PP/critica_a_Albiol antes de publicar resultados.
+No se ha usado la API de X, no se han comprado créditos y no se han refrescado métricas.
+{"archivo":"corpus_originales_2026-10.csv","filas":4101,"bytes":1770052}
+{"archivo":"candidatas_lengua_2026-10.csv","filas":996,"bytes":470004}
