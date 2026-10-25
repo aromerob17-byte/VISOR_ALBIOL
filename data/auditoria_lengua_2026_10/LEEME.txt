@@ -1,0 +1,13 @@
+AUDITORÍA REPRODUCIBLE — PUBLICACIONES CANDIDATAS SOBRE LENGUA Y ALBIOL
+Fuente: data/exportaciones/candidatas_lengua_2026-10.csv.
+Archivo de resultados: data/auditoria_lengua_2026_10/clasificacion_trazable.csv.
+Filtro de extracción original: coincidencia léxica amplia o vínculo documentado con hilo origen.
+El análisis no reproduce ni inventa una muestra original de 533: aquella selección no quedó archivada.
+postura_sobre_declaraciones = respalda / rechaza / mixta / sin_determinar.
+critica_pp y critica_albiol son dimensiones independientes.
+metodo = revision_lectura_directa (lectura contextual), patron_explicito, patron_critica_politica, reglas_contradictorias_revisar, sin_clasificacion_concluyente o fuera_de_foco.
+Un "no" en las columnas críticas significa que NO se detectó crítica explícita, NO necesariamente apoyo a la gestión.
+Las reglas explícitas de identificación son indicativas y necesitan validación humana antes de presentar porcentajes como definitivos.
+El texto original y la URL permiten la auditoría directa. No se han consultado nuevas publicaciones ni consumido API de X.
+Los likes corresponden a las métricas guardadas, no a interacciones de usuarios únicos.
+Totales: {"fuente":"data/exportaciones/candidatas_lengua_2026-10.csv","alcance":"996 candidatas léxicas y de hilos; no equivalente a antigua muestra de 533","filas":996,"con_valoracion":100,"metodos":{"patron_critica_politica":26,"fuera_de_foco":361,"sin_clasificacion_concluyente":524,"revision_lectura_directa":43,"patron_explicito":34,"reglas_contradictorias_revisar":8},"grupos":{"sin_determinar__albiol":{"posts":21,"likes":345,"rt":57},"sin_determinar__sin_critica":{"posts":896,"likes":2292,"rt":281},"sin_determinar__pp":{"posts":7,"likes":122,"rt":11},"respalda__pp":{"posts":4,"likes":583,"rt":88},"sin_determinar__ambos":{"posts":7,"likes":1045,"rt":394},"respalda__sin_critica":{"posts":34,"likes":850,"rt":41},"rechaza__albiol":{"posts":5,"likes":546,"rt":229},"rechaza__sin_critica":{"posts":9,"likes":235,"rt":98},"respalda__albiol":{"posts":1,"likes":1,"rt":0},"rechaza__ambos":{"posts":3,"likes":129,"rt":29},"mixta__sin_critica":{"posts":8,"likes":15,"rt":5},"rechaza__pp":{"posts":1,"likes":11,"rt":3}},"likes_total_candidatas":6174,"revisadas_lectura_directa":43}
