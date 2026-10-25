@@ -1,13 +1,31 @@
-AUDITORÍA REPRODUCIBLE — PUBLICACIONES CANDIDATAS SOBRE LENGUA Y ALBIOL
-Fuente: data/exportaciones/candidatas_lengua_2026-10.csv.
-Archivo de resultados: data/auditoria_lengua_2026_10/clasificacion_trazable.csv.
-Filtro de extracción original: coincidencia léxica amplia o vínculo documentado con hilo origen.
-El análisis no reproduce ni inventa una muestra original de 533: aquella selección no quedó archivada.
-postura_sobre_declaraciones = respalda / rechaza / mixta / sin_determinar.
-critica_pp y critica_albiol son dimensiones independientes.
-metodo = revision_lectura_directa (lectura contextual), patron_explicito, patron_critica_politica, reglas_contradictorias_revisar, sin_clasificacion_concluyente o fuera_de_foco.
-Un "no" en las columnas críticas significa que NO se detectó crítica explícita, NO necesariamente apoyo a la gestión.
-Las reglas explícitas de identificación son indicativas y necesitan validación humana antes de presentar porcentajes como definitivos.
-El texto original y la URL permiten la auditoría directa. No se han consultado nuevas publicaciones ni consumido API de X.
-Los likes corresponden a las métricas guardadas, no a interacciones de usuarios únicos.
-Totales: {"fuente":"data/exportaciones/candidatas_lengua_2026-10.csv","alcance":"996 candidatas léxicas y de hilos; no equivalente a antigua muestra de 533","filas":996,"con_valoracion":100,"metodos":{"patron_critica_politica":26,"fuera_de_foco":361,"sin_clasificacion_concluyente":524,"revision_lectura_directa":43,"patron_explicito":34,"reglas_contradictorias_revisar":8},"grupos":{"sin_determinar__albiol":{"posts":21,"likes":345,"rt":57},"sin_determinar__sin_critica":{"posts":896,"likes":2292,"rt":281},"sin_determinar__pp":{"posts":7,"likes":122,"rt":11},"respalda__pp":{"posts":4,"likes":583,"rt":88},"sin_determinar__ambos":{"posts":7,"likes":1045,"rt":394},"respalda__sin_critica":{"posts":34,"likes":850,"rt":41},"rechaza__albiol":{"posts":5,"likes":546,"rt":229},"rechaza__sin_critica":{"posts":9,"likes":235,"rt":98},"respalda__albiol":{"posts":1,"likes":1,"rt":0},"rechaza__ambos":{"posts":3,"likes":129,"rt":29},"mixta__sin_critica":{"posts":8,"likes":15,"rt":5},"rechaza__pp":{"posts":1,"likes":11,"rt":3}},"likes_total_candidatas":6174,"revisadas_lectura_directa":43}
+VISOR_ALBIOL — NOTA DE AUDITORÍA DE LA CONVERSACIÓN LINGÜÍSTICA
+Fecha de corte: 24 de octubre de 2026.
+
+ALCANCE
+Fuente íntegra: data/posts/2026-10.json — 4.101 publicaciones sin republicaciones.
+Extracción: data/exportaciones/candidatas_lengua_2026-10.csv — 996 candidatas por coincidencias léxicas o vínculos a los hilos.
+Matriz trazable: data/auditoria_lengua_2026_10/clasificacion_trazable.csv — 996 filas.
+Lectura directa: data/auditoria_lengua_2026_10/lectura_directa.csv — 205 publicaciones.
+Agregados completos: data/auditoria_lengua_2026_10/resumen.json.
+
+MÉTODO
+Clasificación en dos ejes: (a) respaldo, rechazo, posición mixta o sin postura frente a las declaraciones de Albiol; (b) crítica política al PP, a Albiol, a ambos o no detectada.
+Se ha aplicado lectura directa a 205 publicaciones seleccionadas para comprobar sus textos y contexto visible, dando preferencia a las de mayor repercusión.
+Las restantes filas tienen clasificación por reglas explícitas cuando existe evidencia textual suficiente, y se mantienen sin determinar en los demás casos.
+Un 'no' en crítica política no equivale a apoyo a la gestión.
+La publicación informativa de un titular no equivale al respaldo del autor del mensaje a ese titular.
+Los dos ejes se almacenan por separado, de modo que un texto puede respaldar el diagnóstico y criticar la actuación política.
+La base incluye ID, texto, autor, fecha, URL, métricas, categorías, método y justificación por fila.
+Las métricas de likes y republicaciones proceden del histórico ya almacenado; no se ha consultado ni facturado la API de X.
+
+RESULTADOS EN LECTURA DIRECTA
+Publicaciones leídas: 205.
+Con posición inequívoca: 96 (73 respaldan y 23 rechazan).
+Respaldo que también critica al PP: 11 (9 solo PP, 2 crítica conjunta al PP y a Albiol).
+Likes en las 205 publicaciones: 5.728, de los 6.174 acumulados por el universo de 996 candidatas.
+Los recuentos describen esta submuestra de prioridad por repercusión; no son proporciones extrapolables al conjunto de 4.101 publicaciones.
+
+LÍMITES
+No consta una lista histórica archivada con los 533 IDs usados en la chuleta anterior: esta revisión construye una base nueva comprobable y no pretende recrear retrospectivamente aquella selección.
+No se ha muestreado aleatoriamente. Pueden repetirse autores, las réplicas pueden requerir el texto padre para su interpretación, y la viralidad concentra interacciones.
+Todos los CSV usan UTF-8 BOM y separador punto y coma. Al importar los ID de X en Excel, tratarlos como texto para conservar precisión.
